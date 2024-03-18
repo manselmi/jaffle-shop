@@ -1,0 +1,18 @@
+version: '3'
+
+tasks:
+
+  venv:
+    cmds:
+      - 'rm -fr -- .venv'
+      - 'python3.11 -m venv -- .venv'
+      - '.venv/bin/python -m pip install --progress-bar=off --upgrade -- pip setuptools wheel'
+      - '.venv/bin/python -m pip install --progress-bar=off --no-deps -r requirements.txt'
+      - '.venv/bin/python -m pip check'
+
+  setup:
+    cmds:
+      - '.venv/bin/dbt deps'
+      - '.venv/bin/dbt seed'
+      - '.venv/bin/dbt run'
+      - '.venv/bin/dbt test'

@@ -1,0 +1,18 @@
+# vim: set ft=yaml :
+#
+# https://docs.getdbt.com/docs/core/connect-data-platform/profiles.yml
+# https://docs.getdbt.com/reference/dbt-jinja-functions/profiles-yml-context
+
+
+config:
+  send_anonymous_usage_stats: false
+
+jaffle_shop:
+  outputs:
+    local:
+      extensions:
+      path: '{{ env_var("HOME") }}/Databases/jaffle_shop/dbt.duckdb'
+      settings:
+      threads: 1
+      type: 'duckdb'
+  target: 'local'

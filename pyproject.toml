@@ -1,0 +1,94 @@
+# vim: set ft=toml :
+
+
+[tool.ruff]
+line-length = 100
+target-version = 'py311'
+
+[tool.ruff.lint]
+dummy-variable-rgx = '^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$'
+fixable = ['ALL']
+ignore = [
+  'ANN',      # mypy handles our type annotations
+  'COM812',   # https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules
+  'COM819',   # https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules
+  'CPY',      # not publishing publicly
+  'D',        # we prefer our own docstring style
+  'E111',     # https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules
+  'E114',     # https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules
+  'E117',     # https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules
+  'ERA',      # do not remove commented-out code
+  'ISC001',   # https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules
+  'ISC002',   # https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules
+  'Q000',     # https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules
+  'Q001',     # https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules
+  'Q002',     # https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules
+  'Q003',     # https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules
+  'TCH',      # TYPE_CHECKING blocks break autodocs
+  'W191',     # https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules
+]
+select = ['ALL']
+unfixable = []
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+known-first-party = []
+known-local-folder = []
+known-third-party = []
+
+[tool.ruff.lint.per-file-ignores]
+'test/**/*.py' = [
+  'INP001',
+]
+'__init__.py' = [
+  'F401',
+]
+
+
+[tool.sqlfluff.core]
+dialect = 'duckdb'
+encoding = 'utf-8'
+exclude_rules = [
+  'ST06',
+]
+large_file_skip_byte_limit = 0
+max_line_length = 100
+sql_file_exts = '.sql'
+templater = 'dbt'
+
+[tool.sqlfluff.indentation]
+tab_space_size = 4
+
+[tool.sqlfluff.layout.type.comma]
+line_position = 'trailing'
+spacing_before = 'touch'
+
+[tool.sqlfluff.rules.aliasing.column]
+aliasing = 'explicit'
+
+[tool.sqlfluff.rules.aliasing.expression]
+allow_scalar = false
+
+[tool.sqlfluff.rules.aliasing.length]
+min_alias_length = 1
+
+[tool.sqlfluff.rules.aliasing.table]
+aliasing = 'explicit'
+
+[tool.sqlfluff.rules.ambiguous.column_references]
+group_by_and_order_by_style = 'implicit'
+
+[tool.sqlfluff.rules.capitalisation.functions]
+capitalisation_policy = 'lower'
+
+[tool.sqlfluff.rules.capitalisation.identifiers]
+extended_capitalisation_policy = 'lower'
+
+[tool.sqlfluff.rules.capitalisation.keywords]
+capitalisation_policy = 'lower'
+
+[tool.sqlfluff.rules.capitalisation.literals]
+capitalisation_policy = 'lower'
+
+[tool.sqlfluff.templater.dbt]
+profiles_dir = '.'

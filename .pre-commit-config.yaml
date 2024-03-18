@@ -1,0 +1,77 @@
+# vim: set ft=yaml :
+
+
+# To learn more about pre-commit, please see:
+#
+#   https://pre-commit.com
+#   https://pre-commit.com/hooks.html
+
+minimum_pre_commit_version: '3.6.2'
+
+default_language_version:
+  python: 'python3.11'
+
+repos:
+
+  - repo: 'https://github.com/astral-sh/ruff-pre-commit'
+    rev: 'v0.3.3'
+    hooks:
+      - id: 'ruff'
+        args:
+          - '--fix'
+        stages:
+          - 'commit'
+      - id: 'ruff-format'
+        stages:
+          - 'commit'
+
+  - repo: 'https://github.com/sqlfluff/sqlfluff'
+    rev: '3.0.2'
+    hooks:
+      - id: 'sqlfluff-fix'
+        stages:
+          - 'commit'
+        additional_dependencies:
+          - 'dbt-core==1.7.10'
+          - 'dbt-duckdb==1.7.3'
+          - 'metricflow==0.205.0'
+          - 'sqlfluff-templater-dbt==3.0.2'
+
+  - repo: 'https://github.com/pre-commit/pre-commit-hooks'
+    rev: 'v4.5.0'
+    hooks:
+      - id: 'check-case-conflict'
+        stages:
+          - 'commit'
+      - id: 'check-json'
+        stages:
+          - 'commit'
+      - id: 'check-symlinks'
+        stages:
+          - 'commit'
+      - id: 'check-toml'
+        stages:
+          - 'commit'
+      - id: 'check-vcs-permalinks'
+        stages:
+          - 'commit'
+      - id: 'check-yaml'
+        stages:
+          - 'commit'
+      - id: 'debug-statements'
+        stages:
+          - 'commit'
+      - id: 'destroyed-symlinks'
+        stages:
+          - 'commit'
+      - id: 'end-of-file-fixer'
+        stages:
+          - 'commit'
+      - id: 'fix-byte-order-marker'
+        stages:
+          - 'commit'
+      - id: 'trailing-whitespace'
+        args:
+          - '--markdown-linebreak-ext=md'
+        stages:
+          - 'commit'

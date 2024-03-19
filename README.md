@@ -18,6 +18,5 @@ The dbt [jaffle-shop](https://github.com/dbt-labs/jaffle-shop#readme) project bu
 ## Run
 
 ``` shell
-task venv
-task setup
+task build
 ```

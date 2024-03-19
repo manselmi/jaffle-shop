@@ -9,8 +9,14 @@ tasks:
       - '.venv/bin/python -m pip install --progress-bar=off --upgrade -- pip setuptools wheel'
       - '.venv/bin/python -m pip install --progress-bar=off --no-deps -r requirements.txt'
       - '.venv/bin/python -m pip check'
+      - 'printf %s "Signature: 8a477f597d28d172789f06886806bc55" > .venv/CACHEDIR.TAG'
+    sources:
+      - 'requirements.txt'
+    generates:
+      - '.venv/CACHEDIR.TAG'
 
-  setup:
+  build:
+    deps: ['venv']
     cmds:
       - '.venv/bin/dbt deps'
       - '.venv/bin/dbt seed'

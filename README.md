@@ -12,8 +12,11 @@ The dbt [jaffle-shop](https://github.com/dbt-labs/jaffle-shop#readme) project bu
 
 ## Prerequisites
 
+* [Task](https://taskfile.dev)
+
+* [uv](https://github.com/astral-sh/uv#readme)
+
 * Python 3.11
-* [Task](https://taskfile.dev/)
 
 ## Run
 

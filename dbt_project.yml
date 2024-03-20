@@ -16,7 +16,7 @@ macro-paths: ['macros']
 model-paths: ['models']
 seed-paths: ['jaffle-data']
 snapshot-paths: ['snapshots']
-test-paths: ['tests']
+test-paths: ['data-tests']
 
 target-path: 'target'
 clean-targets:

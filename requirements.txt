@@ -46,7 +46,7 @@ diff-cover==8.0.3
     # via sqlfluff
 duckdb==0.10.1
     # via dbt-duckdb
-graphviz==0.20.2
+graphviz==0.20.3
     # via metricflow
 halo==0.0.31
     # via metricflow

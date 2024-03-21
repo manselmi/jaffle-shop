@@ -56,6 +56,8 @@ tasks:
 
   compile-requirements:
     deps: ['.task']
+    env:
+      UV_CUSTOM_COMPILE_COMMAND: 'task {{ .TASK }} [-- <UV_PIP_COMPILE_CLI_ARG>…]'
     cmds:
       - 'uv pip compile
           --annotation-style=split

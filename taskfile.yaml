@@ -60,8 +60,6 @@ tasks:
       UV_CUSTOM_COMPILE_COMMAND: 'task {{ .TASK }} [-- <UV_PIP_COMPILE_CLI_ARG>…]'
     cmds:
       - 'uv pip compile
-          --annotation-style=split
-          --no-header
           --output-file={{ .REQUIREMENTS_TXT }}
           --python-version={{ .PYTHON_MINOR_VERSION }}
           {{ .CLI_ARGS }}

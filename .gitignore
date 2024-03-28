@@ -80,6 +80,13 @@
 .*[-_]cache/
 .cache/
 
+# dbt
+#   https://docs.getdbt.com/faqs/Git/gitignore
+dbt_modules/
+dbt_packages/
+logs/
+target/
+
 # DuckDB
 #   https://github.com/duckdb/duckdb#readme
 *.wal

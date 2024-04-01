@@ -21,5 +21,7 @@ The dbt [jaffle-shop](https://github.com/dbt-labs/jaffle-shop#readme) project bu
 ## Run
 
 ``` shell
+# https://changit.bwh.harvard.edu/nhlmi/manselmi-toybox/tree/main/local/Users/nhlmi/.taskfiles
+export TASKFILE_INCLUDES_ROOT_DIR=…
 task build
 ```

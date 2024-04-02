@@ -32,7 +32,7 @@ colorama==0.4.6
     #   halo
     #   log-symbols
     #   sqlfluff
-dbt-core==1.7.10
+dbt-core==1.7.11
     # via
     #   dbt-duckdb
     #   metricflow
@@ -127,7 +127,7 @@ pluggy==1.4.0
     #   pytest
 protobuf==4.25.3
     # via dbt-core
-pycparser==2.21
+pycparser==2.22
     # via cffi
 pydantic==1.10.14
     # via

@@ -408,6 +408,7 @@ Thumbs.db:encryptable
 [Dd]esktop.ini
 
 # Add project-specific patterns here.
+*.duckdb
 dbt_packages/
 logs/
 target/

@@ -8,7 +8,7 @@
 The dbt [jaffle-shop](https://github.com/dbt-labs/jaffle-shop#readme) project but with DuckDB.
 
 (reference commit:
-[2eec48b](https://github.com/dbt-labs/jaffle-shop/tree/2eec48bfb2bb69198eebeb74569621cdb1afb56a))
+[2447e1b](https://github.com/dbt-labs/jaffle-shop/tree/2447e1b505a7401cbe3a3c6a818d7073ed2e61d8))
 
 ## Prerequisites
 
@@ -22,4 +22,5 @@ The dbt [jaffle-shop](https://github.com/dbt-labs/jaffle-shop#readme) project bu
 
 ``` shell
 task build
+task mf-validate
 ```

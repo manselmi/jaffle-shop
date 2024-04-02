@@ -11,7 +11,7 @@ jaffle_shop:
   outputs:
     local:
       extensions:
-      path: '{{ env_var("HOME") }}/Databases/jaffle_shop/dbt.duckdb'
+      path: 'dbt.duckdb'
       settings:
       threads: 1
       type: 'duckdb'

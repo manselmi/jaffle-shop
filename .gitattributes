@@ -28,6 +28,8 @@
 #   git cat-file/grep --textconv […]
 
 *           txt
+*.csv       bin
+*.duckdb    bin
 *.sops      diff=sopsDiff
 *.sops.*    diff=sopsDiff
 .sops.yaml  !diff

@@ -29,3 +29,11 @@ tasks:
       - '{{ .DBT }} seed'
       - '{{ .DBT }} run'
       - '{{ .DBT }} test'
+
+  mf-validate:
+    deps: ['uv:venv']
+    vars:
+      MF: '{{ .VENV | shellQuote }}/bin/mf'
+    cmds:
+      - '{{ .MF }} health-checks'
+      - '{{ .MF }} validate-configs --verbose-issues'

@@ -7,14 +7,13 @@
 
 The dbt [jaffle-shop](https://github.com/dbt-labs/jaffle-shop#readme) project but with DuckDB.
 
-(reference commit:
-[2447e1b](https://github.com/dbt-labs/jaffle-shop/tree/2447e1b505a7401cbe3a3c6a818d7073ed2e61d8))
+(reference commit: [cef41c2](cef41c226d2276acf1235fe2d0a46c8f7cec45e0))
 
 ## Prerequisites
 
 * [Task](https://taskfile.dev)
 
-* `TASKFILE_INCLUDES_ROOT_DIR` environment variable and "uv" taskfile (see `taskfile.yaml`)
+* `TASKFILE_INCLUDE_ROOT_DIR` environment variable and "uv" taskfile (see `taskfile.yaml`)
 
 * [uv](https://github.com/astral-sh/uv#readme)
 

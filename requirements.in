@@ -1,5 +1,6 @@
 dbt-core
 dbt-duckdb
+jafgen
 metricflow
 sqlfluff
 sqlfluff-templater-dbt

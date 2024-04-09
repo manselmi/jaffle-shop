@@ -410,5 +410,6 @@ Thumbs.db:encryptable
 # Add project-specific patterns here.
 *.duckdb
 dbt_packages/
+jaffle-data/
 logs/
 target/

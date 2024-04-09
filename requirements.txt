@@ -26,6 +26,7 @@ click==8.1.7
     #   dbt-semantic-interfaces
     #   metricflow
     #   sqlfluff
+    #   typer
 colorama==0.4.6
     # via
     #   dbt-core
@@ -48,6 +49,8 @@ diff-cover==8.0.3
     # via sqlfluff
 duckdb==0.10.1
     # via dbt-duckdb
+faker==24.8.0
+    # via jafgen
 graphviz==0.20.3
     # via metricflow
 halo==0.0.31
@@ -64,6 +67,7 @@ isodate==0.6.1
     # via
     #   agate
     #   dbt-core
+jafgen==0.4.11
 jinja2==3.1.3
     # via
     #   dbt-core
@@ -108,13 +112,17 @@ msgpack==1.0.8
 networkx==3.3
     # via dbt-core
 numpy==1.26.4
-    # via pandas
+    # via
+    #   jafgen
+    #   pandas
 packaging==24.0
     # via
     #   dbt-core
     #   pytest
 pandas==1.5.3
-    # via metricflow
+    # via
+    #   jafgen
+    #   metricflow
 parsedatetime==2.6
     # via agate
 pathspec==0.11.2
@@ -143,6 +151,7 @@ pytest==8.1.1
 python-dateutil==2.8.2
     # via
     #   dbt-semantic-interfaces
+    #   faker
     #   metricflow
     #   pandas
 python-slugify==8.0.4
@@ -173,7 +182,9 @@ requests==2.31.0
     #   minimal-snowplow-tracker
     #   update-checker
 rich==13.7.1
-    # via sqlfluff-templater-dbt
+    # via
+    #   sqlfluff-templater-dbt
+    #   typer
 rpds-py==0.18.0
     # via
     #   jsonschema
@@ -184,6 +195,8 @@ ruamel-yaml==0.17.40
     #   sqlfluff-templater-dbt
 ruamel-yaml-clib==0.2.8
     # via ruamel-yaml
+shellingham==1.5.4
+    # via typer
 six==1.16.0
     # via
     #   halo
@@ -207,6 +220,8 @@ text-unidecode==1.3
     # via python-slugify
 tqdm==4.66.2
     # via sqlfluff
+typer==0.12.3
+    # via jafgen
 typing-extensions==4.11.0
     # via
     #   dbt-core
@@ -215,6 +230,7 @@ typing-extensions==4.11.0
     #   metricflow
     #   pydantic
     #   sqlfluff
+    #   typer
 update-checker==0.18.0
     # via metricflow
 urllib3==1.26.18

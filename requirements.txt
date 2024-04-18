@@ -33,12 +33,12 @@ colorama==0.4.6
     #   halo
     #   log-symbols
     #   sqlfluff
-dbt-core==1.7.12
+dbt-core==1.7.13
     # via
     #   dbt-duckdb
     #   metricflow
     #   sqlfluff-templater-dbt
-dbt-duckdb==1.7.3
+dbt-duckdb==1.7.4
 dbt-extractor==0.5.1
     # via dbt-core
 dbt-semantic-interfaces==0.4.4
@@ -47,9 +47,9 @@ dbt-semantic-interfaces==0.4.4
     #   metricflow
 diff-cover==9.0.0
     # via sqlfluff
-duckdb==0.10.1
+duckdb==0.10.2
     # via dbt-duckdb
-faker==24.9.0
+faker==24.11.0
     # via jafgen
 graphviz==0.20.3
     # via metricflow
@@ -172,7 +172,7 @@ referencing==0.34.0
     # via
     #   jsonschema
     #   jsonschema-specifications
-regex==2023.12.25
+regex==2024.4.16
     # via sqlfluff
 requests==2.31.0
     # via
@@ -206,7 +206,7 @@ spinners==0.0.24
 sqlfluff==3.0.4
     # via sqlfluff-templater-dbt
 sqlfluff-templater-dbt==3.0.4
-sqlparse==0.4.4
+sqlparse==0.5.0
     # via dbt-core
 tabulate==0.9.0
     # via metricflow

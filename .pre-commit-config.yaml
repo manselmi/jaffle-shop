@@ -26,7 +26,7 @@ repos:
           - 'commit'
 
   - repo: 'https://github.com/sqlfluff/sqlfluff'
-    rev: '3.0.4'
+    rev: '3.0.5'
     hooks:
       - id: 'sqlfluff-fix'
         stages:
@@ -35,7 +35,7 @@ repos:
           - 'dbt-core==1.7.13'
           - 'dbt-duckdb==1.7.4'
           - 'metricflow==0.205.0'
-          - 'sqlfluff-templater-dbt==3.0.4'
+          - 'sqlfluff-templater-dbt==3.0.5'
 
   - repo: 'https://github.com/pre-commit/pre-commit-hooks'
     rev: 'v4.6.0'

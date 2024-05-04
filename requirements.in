@@ -1,4 +1,4 @@
-dbt-core
+dbt-core>=1.7.14
 dbt-duckdb
 jafgen
 metricflow

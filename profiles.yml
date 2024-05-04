@@ -4,9 +4,6 @@
 # https://docs.getdbt.com/reference/dbt-jinja-functions/profiles-yml-context
 
 
-config:
-  send_anonymous_usage_stats: false
-
 jaffle_shop:
   outputs:
     local:

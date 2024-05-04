@@ -4,31 +4,28 @@
 # https://docs.getdbt.com/reference/dbt-jinja-functions/dbt-project-yml-context
 
 
-config-version: 2
-
 name: 'jaffle_shop'
+
+config-version: 2
 version: '0.1.0'
 
 profile: 'jaffle_shop'
 
-analysis-paths: ['analyses']
-macro-paths: ['macros']
 model-paths: ['models']
 seed-paths: ['jaffle-data']
-snapshot-paths: ['snapshots']
 test-paths: ['data-tests']
+analysis-paths: ['analyses']
+macro-paths: ['macros']
+snapshot-paths: ['snapshots']
 
 target-path: 'target'
+
 clean-targets:
   - 'dbt_packages'
   - 'target'
 
-vars:
-  'dbt_date:time_zone': 'America/Los_Angeles'
-
-seeds:
-  jaffle_shop:
-    +schema: 'raw'
+flags:
+  send_anonymous_usage_stats: false
 
 models:
   jaffle_shop:
@@ -36,3 +33,10 @@ models:
       +materialized: 'view'
     marts:
       +materialized: 'table'
+
+seeds:
+  jaffle_shop:
+    +schema: 'raw'
+
+vars:
+  'dbt_date:time_zone': 'America/Los_Angeles'

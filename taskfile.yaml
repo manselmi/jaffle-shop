@@ -46,4 +46,4 @@ tasks:
       MF: '{{ .VENV | shellQuote }}/bin/mf'
     cmds:
       - '{{ .MF }} health-checks'
-      - '{{ .MF }} validate-configs --verbose-issues'
+      - '{{ .MF }} validate-configs --show-all --verbose-issues'

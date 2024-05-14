@@ -35,10 +35,12 @@ colorama==0.4.6
     #   sqlfluff
 dbt-core==1.7.14
     # via
+    #   -r requirements.in
     #   dbt-duckdb
     #   metricflow
     #   sqlfluff-templater-dbt
 dbt-duckdb==1.7.5
+    # via -r requirements.in
 dbt-extractor==0.5.1
     # via dbt-core
 dbt-semantic-interfaces==0.4.4
@@ -49,7 +51,7 @@ diff-cover==9.0.0
     # via sqlfluff
 duckdb==0.10.2
     # via dbt-duckdb
-faker==25.1.0
+faker==25.2.0
     # via jafgen
 graphviz==0.20.3
     # via metricflow
@@ -68,6 +70,7 @@ isodate==0.6.1
     #   agate
     #   dbt-core
 jafgen==0.4.14
+    # via -r requirements.in
 jinja2==3.1.4
     # via
     #   dbt-core
@@ -101,6 +104,7 @@ mashumaro==3.13
 mdurl==0.1.2
     # via markdown-it-py
 metricflow==0.205.0
+    # via -r requirements.in
 minimal-snowplow-tracker==0.0.2
     # via dbt-core
 more-itertools==10.1.0
@@ -204,8 +208,11 @@ six==1.16.0
 spinners==0.0.24
     # via halo
 sqlfluff==3.0.6
-    # via sqlfluff-templater-dbt
+    # via
+    #   -r requirements.in
+    #   sqlfluff-templater-dbt
 sqlfluff-templater-dbt==3.0.6
+    # via -r requirements.in
 sqlparse==0.5.0
     # via dbt-core
 tabulate==0.9.0

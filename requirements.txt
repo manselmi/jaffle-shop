@@ -207,11 +207,11 @@ six==1.16.0
     #   python-dateutil
 spinners==0.0.24
     # via halo
-sqlfluff==3.0.6
+sqlfluff==3.0.7
     # via
     #   -r requirements.in
     #   sqlfluff-templater-dbt
-sqlfluff-templater-dbt==3.0.6
+sqlfluff-templater-dbt==3.0.7
     # via -r requirements.in
 sqlparse==0.5.0
     # via dbt-core
@@ -234,7 +234,6 @@ typing-extensions==4.11.0
     #   mashumaro
     #   metricflow
     #   pydantic
-    #   sqlfluff
     #   typer
 update-checker==0.18.0
     # via metricflow

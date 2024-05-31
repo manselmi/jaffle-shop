@@ -170,7 +170,7 @@ pyyaml==6.0.1
     #   dbt-semantic-interfaces
     #   metricflow
     #   sqlfluff
-rapidfuzz==3.9.1
+rapidfuzz==3.9.3
     # via metricflow
 referencing==0.35.1
     # via
@@ -178,7 +178,7 @@ referencing==0.35.1
     #   jsonschema-specifications
 regex==2024.5.15
     # via sqlfluff
-requests==2.32.2
+requests==2.32.3
     # via
     #   dbt-core
     #   minimal-snowplow-tracker
@@ -241,5 +241,5 @@ urllib3==1.26.18
     # via
     #   dbt-core
     #   requests
-zipp==3.19.0
+zipp==3.19.1
     # via importlib-metadata

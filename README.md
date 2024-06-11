@@ -18,7 +18,7 @@ The dbt [jaffle-shop](https://github.com/dbt-labs/jaffle-shop#readme) project bu
 
 * [uv](https://github.com/astral-sh/uv#readme)
 
-* Python 3.11
+* Python 3.12
 
 ## Run
 

@@ -13,7 +13,7 @@ includes:
   uv:
     taskfile: '{{ env "TASKFILE_INCLUDE_ROOT_DIR" }}/uv'
     vars:
-      PYTHON_MINOR_VERSION: '3.11'
+      PYTHON_MINOR_VERSION: '3.12'
 
 tasks:
 

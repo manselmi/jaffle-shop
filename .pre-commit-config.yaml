@@ -9,7 +9,7 @@
 minimum_pre_commit_version: '3.7.1'
 
 default_language_version:
-  python: 'python3.11'
+  python: 'python3.12'
 
 repos:
 
@@ -32,9 +32,9 @@ repos:
         stages:
           - 'commit'
         additional_dependencies:
-          - 'dbt-core==1.7.15'
-          - 'dbt-duckdb==1.7.5'
-          - 'metricflow==0.205.0'
+          - 'dbt-core==1.8.2'
+          - 'dbt-duckdb==1.8.1'
+          - 'dbt-metricflow==0.7.0'
           - 'sqlfluff-templater-dbt==3.0.7'
 
   - repo: 'https://github.com/pre-commit/pre-commit-hooks'

@@ -114,7 +114,7 @@ markupsafe==2.1.5
     # via
     #   jinja2
     #   sqlfluff-templater-dbt
-mashumaro==3.13
+mashumaro[msgpack]==3.13
     # via
     #   dbt-adapters
     #   dbt-common
@@ -253,7 +253,7 @@ typing-extensions==4.12.2
     #   typer
 update-checker==0.18.0
     # via dbt-metricflow
-urllib3==2.2.1
+urllib3==2.2.2
     # via requests
 zipp==3.19.2
     # via importlib-metadata

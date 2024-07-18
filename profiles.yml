@@ -1,0 +1,15 @@
+# vim: set ft=yaml :
+#
+# https://docs.getdbt.com/docs/core/connect-data-platform/profiles.yml
+# https://docs.getdbt.com/reference/dbt-jinja-functions/profiles-yml-context
+
+
+jaffle_shop:
+  outputs:
+    local:
+      extensions:
+      path: 'dbt.duckdb'
+      settings:
+      threads: 1
+      type: 'duckdb'
+  target: 'local'

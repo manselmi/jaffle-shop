@@ -4,5 +4,5 @@ packages:
   - package: dbt-labs/dbt_utils
     version: 1.2.0
   - git: https://github.com/dbt-labs/dbt-audit-helper.git
-    revision: a53575e840e3567154a8b617eec7ddf2437da3a1
-sha1_hash: 550da8859a307b984b3f915932eb416c3cc4da72
+    revision: c0be07f84e61dd01517292a15a2c084af9c95f01
+sha1_hash: b439790a18f137be82b8e73643b2a96f612bd599

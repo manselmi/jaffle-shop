@@ -189,7 +189,7 @@ pyyaml==6.0.1
     #   dbt-core
     #   dbt-semantic-interfaces
     #   sqlfluff
-rapidfuzz==3.9.4
+rapidfuzz==3.9.5
     # via metricflow
 referencing==0.35.1
     # via

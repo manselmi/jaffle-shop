@@ -18,6 +18,12 @@ The dbt [jaffle-shop](https://github.com/dbt-labs/jaffle-shop#readme) project bu
 
 * Python 3.12
 
+## Initialize submodules
+
+``` shell
+git submodule update --init --recursive
+```
+
 ## Run
 
 ``` shell

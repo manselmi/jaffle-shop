@@ -14,7 +14,7 @@ default_language_version:
 repos:
 
   - repo: 'https://github.com/astral-sh/ruff-pre-commit'
-    rev: 'v0.5.5'
+    rev: 'v0.5.6'
     hooks:
       - id: 'ruff'
         args:
@@ -34,7 +34,7 @@ repos:
         additional_dependencies:
           - 'dbt-core==1.8.4'
           - 'dbt-duckdb==1.8.2'
-          - 'dbt-metricflow==0.7.0'
+          - 'dbt-metricflow==0.7.1'
           - 'sqlfluff-templater-dbt==3.1.0'
 
   - repo: 'https://github.com/pre-commit/pre-commit-hooks'

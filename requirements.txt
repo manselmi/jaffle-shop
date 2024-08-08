@@ -11,7 +11,7 @@ attrs==24.2.0
     # via
     #   jsonschema
     #   referencing
-babel==2.15.0
+babel==2.16.0
     # via agate
 certifi==2024.7.4
     # via requests
@@ -68,7 +68,7 @@ diff-cover==9.1.1
     # via sqlfluff
 duckdb==1.0.0
     # via dbt-duckdb
-faker==26.2.0
+faker==26.3.0
     # via jafgen
 graphviz==0.20.3
     # via metricflow

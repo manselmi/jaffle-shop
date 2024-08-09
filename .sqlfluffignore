@@ -1,4 +1,4 @@
-.venv
+.pixi
 dbt_packages
 macros
 target

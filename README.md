@@ -12,21 +12,10 @@ The dbt [jaffle-shop](https://github.com/dbt-labs/jaffle-shop#readme) project bu
 
 ## Prerequisites
 
-* [Task](https://taskfile.dev)
-
-* [uv](https://github.com/astral-sh/uv#readme)
-
-* Python 3.12
-
-## Initialize submodules
-
-``` shell
-git submodule update --init --recursive
-```
+* [Pixi](https://pixi.sh)
 
 ## Run
 
 ``` shell
-task build
-task mf-validate
+pixi run all
 ```

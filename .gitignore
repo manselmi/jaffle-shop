@@ -217,6 +217,15 @@ timeline-*.html
 trace-*.txt
 work/
 
+# Obsidian
+#   https://help.obsidian.md/Files+and+folders/How+Obsidian+stores+data#Vault+settings
+**/.obsidian/workspace.json
+
+# Pixi
+#   https://pixi.sh
+**/.pixi/*
+!**/.pixi/config.toml
+
 # Python
 #   https://github.com/github/gitignore/blob/main/Python.gitignore
 *$py.class
@@ -242,7 +251,7 @@ work/
 .envs/
 .hypothesis/
 .installed.cfg
-.ipynb_checkpoints
+.ipynb_checkpoints/
 .mypy_cache/
 .nox/
 .pdm.toml
@@ -332,7 +341,6 @@ vignettes/*.pdf
 
 # SOPS
 #   https://github.com/getsops/sops#readme
-!*.sops
 !*.sops.*
 
 # Syncthing

@@ -19,7 +19,7 @@ python = { version = '>=3.12.5,<3.13' }
 
 [tool.pixi.pypi-dependencies]
 dbt-core = { version = '>=1.8.5,<1.9' }
-dbt-duckdb = { version = '>=1.8.2' }
+dbt-duckdb = { version = '>=1.8.3' }
 dbt-metricflow = { version = '>=0.7.1' }
 jafgen = { version = '>=0.4.14' }
 sqlfluff = { version = '>=3.1.0' }

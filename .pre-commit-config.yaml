@@ -103,7 +103,7 @@ repos:
 
       - id: 'sqlfluff-fix'
         name: 'sqlfluff-fix'
-        entry: 'pixi run -e lint -- sqlfluff fix --show-lint-violations --processes 0'
+        entry: 'pixi run -e lint -- sqlfluff fix --disable-progress-bar --show-lint-violations --processes 0'
         language: 'system'
         types: ['sql']
         require_serial: true

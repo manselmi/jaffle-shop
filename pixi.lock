@@ -45,7 +45,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/31/31/ec1943c95ea18eabfcf7d6c882e7265e245f749dc465101343028eac33b8/dbt_semantic_interfaces-0.5.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/18/e6/d27d37dc55dbf40cdbd665aa52844b065ac760c9a02a02265f97ea7a4256/deepdiff-7.0.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/03/57/2b2998e5278b22648a72808c9fcfa33136c71ea99d63ceab1bfd35d363ce/duckdb-1.0.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-      - pypi: https://files.pythonhosted.org/packages/0a/3e/dd1107c0f69a55e827281b04745a5e56cd10752d8a0380a412993cb6b2c8/Faker-27.0.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/c0/62/3611e61dc4a9c60bb7847247f00f3a3cf2e95b24c129aeba75334f40e531/Faker-27.4.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/00/be/d59db2d1d52697c6adc9eacaf50e8965b6345cc143f671e1ed068818d5cf/graphviz-0.20.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ee/48/d53580d30b1fabf25d0d1fcc3f5b26d08d2ac75a1890ff6d262f9f027436/halo-0.0.31.tar.gz
       - pypi: https://files.pythonhosted.org/packages/e5/3e/741d8c82801c347547f8a2a06aa57dbb1992be9e948df2ea0eda2c8b79e8/idna-3.7-py3-none-any.whl
@@ -135,7 +135,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/31/31/ec1943c95ea18eabfcf7d6c882e7265e245f749dc465101343028eac33b8/dbt_semantic_interfaces-0.5.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/18/e6/d27d37dc55dbf40cdbd665aa52844b065ac760c9a02a02265f97ea7a4256/deepdiff-7.0.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a8/95/fda4a0a5b6dbf087785925bfc11c0dc3688cd7ceeb87538df7c42fd65d19/duckdb-1.0.0-cp312-cp312-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl
-      - pypi: https://files.pythonhosted.org/packages/0a/3e/dd1107c0f69a55e827281b04745a5e56cd10752d8a0380a412993cb6b2c8/Faker-27.0.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/c0/62/3611e61dc4a9c60bb7847247f00f3a3cf2e95b24c129aeba75334f40e531/Faker-27.4.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/00/be/d59db2d1d52697c6adc9eacaf50e8965b6345cc143f671e1ed068818d5cf/graphviz-0.20.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ee/48/d53580d30b1fabf25d0d1fcc3f5b26d08d2ac75a1890ff6d262f9f027436/halo-0.0.31.tar.gz
       - pypi: https://files.pythonhosted.org/packages/e5/3e/741d8c82801c347547f8a2a06aa57dbb1992be9e948df2ea0eda2c8b79e8/idna-3.7-py3-none-any.whl
@@ -218,7 +218,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/31/31/ec1943c95ea18eabfcf7d6c882e7265e245f749dc465101343028eac33b8/dbt_semantic_interfaces-0.5.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/18/e6/d27d37dc55dbf40cdbd665aa52844b065ac760c9a02a02265f97ea7a4256/deepdiff-7.0.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5a/36/1d64479d2d18df03b1e470555de4d4e8c60646239ed1bed86f39046d58dd/duckdb-1.0.0-cp312-cp312-macosx_12_0_x86_64.whl
-      - pypi: https://files.pythonhosted.org/packages/0a/3e/dd1107c0f69a55e827281b04745a5e56cd10752d8a0380a412993cb6b2c8/Faker-27.0.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/c0/62/3611e61dc4a9c60bb7847247f00f3a3cf2e95b24c129aeba75334f40e531/Faker-27.4.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/00/be/d59db2d1d52697c6adc9eacaf50e8965b6345cc143f671e1ed068818d5cf/graphviz-0.20.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ee/48/d53580d30b1fabf25d0d1fcc3f5b26d08d2ac75a1890ff6d262f9f027436/halo-0.0.31.tar.gz
       - pypi: https://files.pythonhosted.org/packages/e5/3e/741d8c82801c347547f8a2a06aa57dbb1992be9e948df2ea0eda2c8b79e8/idna-3.7-py3-none-any.whl
@@ -301,7 +301,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/31/31/ec1943c95ea18eabfcf7d6c882e7265e245f749dc465101343028eac33b8/dbt_semantic_interfaces-0.5.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/18/e6/d27d37dc55dbf40cdbd665aa52844b065ac760c9a02a02265f97ea7a4256/deepdiff-7.0.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e0/59/597114db47710e327628aa1682fc2b1c0cf797adb84435788cb63771ac0a/duckdb-1.0.0-cp312-cp312-macosx_12_0_arm64.whl
-      - pypi: https://files.pythonhosted.org/packages/0a/3e/dd1107c0f69a55e827281b04745a5e56cd10752d8a0380a412993cb6b2c8/Faker-27.0.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/c0/62/3611e61dc4a9c60bb7847247f00f3a3cf2e95b24c129aeba75334f40e531/Faker-27.4.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/00/be/d59db2d1d52697c6adc9eacaf50e8965b6345cc143f671e1ed068818d5cf/graphviz-0.20.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ee/48/d53580d30b1fabf25d0d1fcc3f5b26d08d2ac75a1890ff6d262f9f027436/halo-0.0.31.tar.gz
       - pypi: https://files.pythonhosted.org/packages/e5/3e/741d8c82801c347547f8a2a06aa57dbb1992be9e948df2ea0eda2c8b79e8/idna-3.7-py3-none-any.whl
@@ -403,7 +403,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/48/5b/141aab5702089e0982f5e6692ef7cf83a67f3141c56f2722cd5f16ea4a5f/diff_cover-9.1.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/8e/41/9307e4f5f9976bc8b7fea0b66367734e8faf3ec84bc0d412d8cfabbb66cd/distlib-0.3.8-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/03/57/2b2998e5278b22648a72808c9fcfa33136c71ea99d63ceab1bfd35d363ce/duckdb-1.0.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-      - pypi: https://files.pythonhosted.org/packages/0a/3e/dd1107c0f69a55e827281b04745a5e56cd10752d8a0380a412993cb6b2c8/Faker-27.0.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/c0/62/3611e61dc4a9c60bb7847247f00f3a3cf2e95b24c129aeba75334f40e531/Faker-27.4.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ae/f0/48285f0262fe47103a4a45972ed2f9b93e4c80b8fd609fa98da78b2a5706/filelock-3.15.4-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/00/be/d59db2d1d52697c6adc9eacaf50e8965b6345cc143f671e1ed068818d5cf/graphviz-0.20.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ee/48/d53580d30b1fabf25d0d1fcc3f5b26d08d2ac75a1890ff6d262f9f027436/halo-0.0.31.tar.gz
@@ -456,7 +456,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/0f/f7/a59a673594e6c2ff2dbc44b00fd4ecdec2fc399bb6a7bd82d612699a0121/rpds_py-0.20.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/73/67/8ece580cc363331d9a53055130f86b096bf16e38156e33b1d3014fffda6b/ruamel.yaml-0.18.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/30/d3/5fe978cd01a61c12efd24d65fa68c6f28f28c8073a06cf11db3a854390ca/ruamel.yaml.clib-0.2.8-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl
-      - pypi: https://files.pythonhosted.org/packages/e0/94/92bc24e7e58d2f90fa2a370f763d25d9e06ccccfab839b88e389d79fb4e3/ruff-0.6.1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/60/4c/c0f1cd35ce4a93c54a6bb1ee6934a3a205fa02198dd076678193853ceea1/ruff-0.6.2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/e0/f9/0595336914c5619e5f28a1fb793285925a8cd4b432c9da0a987836c7f822/shellingham-1.5.4-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9f/8e/3310207a68118000ca27ac878b8386123628b335ecb3d4bec4743357f0d1/spinners-0.0.24-py3-none-any.whl
@@ -517,7 +517,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/48/5b/141aab5702089e0982f5e6692ef7cf83a67f3141c56f2722cd5f16ea4a5f/diff_cover-9.1.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/8e/41/9307e4f5f9976bc8b7fea0b66367734e8faf3ec84bc0d412d8cfabbb66cd/distlib-0.3.8-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a8/95/fda4a0a5b6dbf087785925bfc11c0dc3688cd7ceeb87538df7c42fd65d19/duckdb-1.0.0-cp312-cp312-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl
-      - pypi: https://files.pythonhosted.org/packages/0a/3e/dd1107c0f69a55e827281b04745a5e56cd10752d8a0380a412993cb6b2c8/Faker-27.0.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/c0/62/3611e61dc4a9c60bb7847247f00f3a3cf2e95b24c129aeba75334f40e531/Faker-27.4.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ae/f0/48285f0262fe47103a4a45972ed2f9b93e4c80b8fd609fa98da78b2a5706/filelock-3.15.4-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/00/be/d59db2d1d52697c6adc9eacaf50e8965b6345cc143f671e1ed068818d5cf/graphviz-0.20.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ee/48/d53580d30b1fabf25d0d1fcc3f5b26d08d2ac75a1890ff6d262f9f027436/halo-0.0.31.tar.gz
@@ -570,7 +570,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/0e/1c/6039e80b13a08569a304dc13476dc986352dca4598e909384db043b4e2bb/rpds_py-0.20.0-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/73/67/8ece580cc363331d9a53055130f86b096bf16e38156e33b1d3014fffda6b/ruamel.yaml-0.18.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/55/b3/e2531a050758b717c969cbf76c103b75d8a01e11af931b94ba656117fbe9/ruamel.yaml.clib-0.2.8-cp312-cp312-manylinux_2_24_aarch64.whl
-      - pypi: https://files.pythonhosted.org/packages/2a/44/1fec4c3eac790a445f3b9e0759665439c1d88517851f3fca90e32e897d48/ruff-0.6.1-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+      - pypi: https://files.pythonhosted.org/packages/05/1c/765192bab32b79efbb498b06f0b9dcb3629112b53b8777ae1d19b8209e09/ruff-0.6.2-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/e0/f9/0595336914c5619e5f28a1fb793285925a8cd4b432c9da0a987836c7f822/shellingham-1.5.4-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9f/8e/3310207a68118000ca27ac878b8386123628b335ecb3d4bec4743357f0d1/spinners-0.0.24-py3-none-any.whl
@@ -624,7 +624,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/48/5b/141aab5702089e0982f5e6692ef7cf83a67f3141c56f2722cd5f16ea4a5f/diff_cover-9.1.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/8e/41/9307e4f5f9976bc8b7fea0b66367734e8faf3ec84bc0d412d8cfabbb66cd/distlib-0.3.8-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5a/36/1d64479d2d18df03b1e470555de4d4e8c60646239ed1bed86f39046d58dd/duckdb-1.0.0-cp312-cp312-macosx_12_0_x86_64.whl
-      - pypi: https://files.pythonhosted.org/packages/0a/3e/dd1107c0f69a55e827281b04745a5e56cd10752d8a0380a412993cb6b2c8/Faker-27.0.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/c0/62/3611e61dc4a9c60bb7847247f00f3a3cf2e95b24c129aeba75334f40e531/Faker-27.4.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ae/f0/48285f0262fe47103a4a45972ed2f9b93e4c80b8fd609fa98da78b2a5706/filelock-3.15.4-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/00/be/d59db2d1d52697c6adc9eacaf50e8965b6345cc143f671e1ed068818d5cf/graphviz-0.20.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ee/48/d53580d30b1fabf25d0d1fcc3f5b26d08d2ac75a1890ff6d262f9f027436/halo-0.0.31.tar.gz
@@ -677,7 +677,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/89/b7/f9682c5cc37fcc035f4a0fc33c1fe92ec9cbfdee0cdfd071cf948f53e0df/rpds_py-0.20.0-cp312-cp312-macosx_10_12_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/73/67/8ece580cc363331d9a53055130f86b096bf16e38156e33b1d3014fffda6b/ruamel.yaml-0.18.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/7a/a2/eb5e9d088cb9d15c24d956944c09dca0a89108ad6e2e913c099ef36e3f0d/ruamel.yaml.clib-0.2.8-cp312-cp312-macosx_10_9_universal2.whl
-      - pypi: https://files.pythonhosted.org/packages/2b/ed/c3e1c20e46f5619f133e1ddafbb1a957407ea36d42a477d0d88e9897bed9/ruff-0.6.1-py3-none-macosx_10_12_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/ae/c3/8aac62ac4638c14a740ee76a755a925f2d0d04580ab790a9887accb729f6/ruff-0.6.2-py3-none-macosx_10_12_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/e0/f9/0595336914c5619e5f28a1fb793285925a8cd4b432c9da0a987836c7f822/shellingham-1.5.4-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9f/8e/3310207a68118000ca27ac878b8386123628b335ecb3d4bec4743357f0d1/spinners-0.0.24-py3-none-any.whl
@@ -731,7 +731,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/48/5b/141aab5702089e0982f5e6692ef7cf83a67f3141c56f2722cd5f16ea4a5f/diff_cover-9.1.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/8e/41/9307e4f5f9976bc8b7fea0b66367734e8faf3ec84bc0d412d8cfabbb66cd/distlib-0.3.8-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e0/59/597114db47710e327628aa1682fc2b1c0cf797adb84435788cb63771ac0a/duckdb-1.0.0-cp312-cp312-macosx_12_0_arm64.whl
-      - pypi: https://files.pythonhosted.org/packages/0a/3e/dd1107c0f69a55e827281b04745a5e56cd10752d8a0380a412993cb6b2c8/Faker-27.0.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/c0/62/3611e61dc4a9c60bb7847247f00f3a3cf2e95b24c129aeba75334f40e531/Faker-27.4.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ae/f0/48285f0262fe47103a4a45972ed2f9b93e4c80b8fd609fa98da78b2a5706/filelock-3.15.4-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/00/be/d59db2d1d52697c6adc9eacaf50e8965b6345cc143f671e1ed068818d5cf/graphviz-0.20.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ee/48/d53580d30b1fabf25d0d1fcc3f5b26d08d2ac75a1890ff6d262f9f027436/halo-0.0.31.tar.gz
@@ -784,7 +784,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/b8/ad/fc82be4eaceb8d444cb6fc1956ce972b3a0795104279de05e0e4131d0a47/rpds_py-0.20.0-cp312-cp312-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/73/67/8ece580cc363331d9a53055130f86b096bf16e38156e33b1d3014fffda6b/ruamel.yaml-0.18.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/66/98/8de4f22bbfd9135deb3422e96d450c4bc0a57d38c25976119307d2efe0aa/ruamel.yaml.clib-0.2.8-cp312-cp312-macosx_13_0_arm64.whl
-      - pypi: https://files.pythonhosted.org/packages/13/49/3ee1c8dca59a8bd87ca833871d86304bce4348b2e019287e45ca0ad5b3dd/ruff-0.6.1-py3-none-macosx_11_0_arm64.whl
+      - pypi: https://files.pythonhosted.org/packages/2f/cf/77fbd8d4617b9b9c503f9bffb8552c4e3ea1a58dc36975e7a9104ffb0f85/ruff-0.6.2-py3-none-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/e0/f9/0595336914c5619e5f28a1fb793285925a8cd4b432c9da0a987836c7f822/shellingham-1.5.4-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9f/8e/3310207a68118000ca27ac878b8386123628b335ecb3d4bec4743357f0d1/spinners-0.0.24-py3-none-any.whl
@@ -1313,9 +1313,9 @@ packages:
   requires_python: '>=3.7.0'
 - kind: pypi
   name: faker
-  version: 27.0.0
-  url: https://files.pythonhosted.org/packages/0a/3e/dd1107c0f69a55e827281b04745a5e56cd10752d8a0380a412993cb6b2c8/Faker-27.0.0-py3-none-any.whl
-  sha256: 55ed0c4ed7bf16800c64823805f6fbbe6d4823db4b7c0903f6f890b8e4d6c34b
+  version: 27.4.0
+  url: https://files.pythonhosted.org/packages/c0/62/3611e61dc4a9c60bb7847247f00f3a3cf2e95b24c129aeba75334f40e531/Faker-27.4.0-py3-none-any.whl
+  sha256: 1c44d4bdcad7237516c9a829b6a0bcb031c6a4cb0506207c480c79f74d8922bf
   requires_dist:
   - python-dateutil>=2.4
   requires_python: '>=3.8'
@@ -2867,27 +2867,27 @@ packages:
   requires_python: '>=3.6'
 - kind: pypi
   name: ruff
-  version: 0.6.1
-  url: https://files.pythonhosted.org/packages/13/49/3ee1c8dca59a8bd87ca833871d86304bce4348b2e019287e45ca0ad5b3dd/ruff-0.6.1-py3-none-macosx_11_0_arm64.whl
-  sha256: bc60c7d71b732c8fa73cf995efc0c836a2fd8b9810e115be8babb24ae87e0850
+  version: 0.6.2
+  url: https://files.pythonhosted.org/packages/05/1c/765192bab32b79efbb498b06f0b9dcb3629112b53b8777ae1d19b8209e09/ruff-0.6.2-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+  sha256: 094600ee88cda325988d3f54e3588c46de5c18dae09d683ace278b11f9d4d534
   requires_python: '>=3.7'
 - kind: pypi
   name: ruff
-  version: 0.6.1
-  url: https://files.pythonhosted.org/packages/2a/44/1fec4c3eac790a445f3b9e0759665439c1d88517851f3fca90e32e897d48/ruff-0.6.1-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
-  sha256: 2c7477c3b9da822e2db0b4e0b59e61b8a23e87886e727b327e7dcaf06213c5cf
+  version: 0.6.2
+  url: https://files.pythonhosted.org/packages/2f/cf/77fbd8d4617b9b9c503f9bffb8552c4e3ea1a58dc36975e7a9104ffb0f85/ruff-0.6.2-py3-none-macosx_11_0_arm64.whl
+  sha256: 3dbeac76ed13456f8158b8f4fe087bf87882e645c8e8b606dd17b0b66c2c1158
   requires_python: '>=3.7'
 - kind: pypi
   name: ruff
-  version: 0.6.1
-  url: https://files.pythonhosted.org/packages/2b/ed/c3e1c20e46f5619f133e1ddafbb1a957407ea36d42a477d0d88e9897bed9/ruff-0.6.1-py3-none-macosx_10_12_x86_64.whl
-  sha256: 45efaae53b360c81043e311cdec8a7696420b3d3e8935202c2846e7a97d4edae
+  version: 0.6.2
+  url: https://files.pythonhosted.org/packages/60/4c/c0f1cd35ce4a93c54a6bb1ee6934a3a205fa02198dd076678193853ceea1/ruff-0.6.2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+  sha256: 7db6880c53c56addb8638fe444818183385ec85eeada1d48fc5abe045301b2f1
   requires_python: '>=3.7'
 - kind: pypi
   name: ruff
-  version: 0.6.1
-  url: https://files.pythonhosted.org/packages/e0/94/92bc24e7e58d2f90fa2a370f763d25d9e06ccccfab839b88e389d79fb4e3/ruff-0.6.1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-  sha256: d812615525a34ecfc07fd93f906ef5b93656be01dfae9a819e31caa6cfe758a1
+  version: 0.6.2
+  url: https://files.pythonhosted.org/packages/ae/c3/8aac62ac4638c14a740ee76a755a925f2d0d04580ab790a9887accb729f6/ruff-0.6.2-py3-none-macosx_10_12_x86_64.whl
+  sha256: 17002fe241e76544448a8e1e6118abecbe8cd10cf68fde635dad480dba594570
   requires_python: '>=3.7'
 - kind: pypi
   name: shellingham

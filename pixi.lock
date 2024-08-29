@@ -39,7 +39,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/0e/fc/82796c10545f3df9882566c79debac28b664e3a3a08fdb493ac3cc418709/daff-1.3.46.tar.gz
       - pypi: https://files.pythonhosted.org/packages/b4/62/cd8cdaf5fb096b54aa6202265b3982aa17184e14592e3835462a3dbb7ab3/dbt_adapters-1.4.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5b/ec/aa9eed89f4e20ad369f66fc18a37a99e558f895ddbab31d1b99859c14981/dbt_common-1.7.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/43/4c/bc3a88a3a2a7404423d57dd1303c688a3e719ebe2b685f02341141f54382/dbt_core-1.8.5-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/02/ec/3c940dc2360d0f22d687cca656fc4b0c1797a684aa03f37dedaffd661a02/dbt_core-1.8.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b1/be/825ad08bf8d716fe1fe34277229cce896b5b61cc919a856e7296dd0b4b21/dbt_duckdb-1.8.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/30/da/a9528ca8224317aad1dab22f77468dd13e94c46b56db953b5b1e3b698a8f/dbt_extractor-0.5.1-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/97/7d/33d850bd35652e65724980fb94b07e7bd24b83891dcdd893d035503d3ec1/dbt_metricflow-0.7.1-py3-none-any.whl
@@ -130,7 +130,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/0e/fc/82796c10545f3df9882566c79debac28b664e3a3a08fdb493ac3cc418709/daff-1.3.46.tar.gz
       - pypi: https://files.pythonhosted.org/packages/b4/62/cd8cdaf5fb096b54aa6202265b3982aa17184e14592e3835462a3dbb7ab3/dbt_adapters-1.4.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5b/ec/aa9eed89f4e20ad369f66fc18a37a99e558f895ddbab31d1b99859c14981/dbt_common-1.7.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/43/4c/bc3a88a3a2a7404423d57dd1303c688a3e719ebe2b685f02341141f54382/dbt_core-1.8.5-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/02/ec/3c940dc2360d0f22d687cca656fc4b0c1797a684aa03f37dedaffd661a02/dbt_core-1.8.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b1/be/825ad08bf8d716fe1fe34277229cce896b5b61cc919a856e7296dd0b4b21/dbt_duckdb-1.8.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/6d/96/caef63d79f3a06bcae1aca43302c1b9efa58590644efca41c4404607510e/dbt_extractor-0.5.1-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/97/7d/33d850bd35652e65724980fb94b07e7bd24b83891dcdd893d035503d3ec1/dbt_metricflow-0.7.1-py3-none-any.whl
@@ -213,7 +213,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/0e/fc/82796c10545f3df9882566c79debac28b664e3a3a08fdb493ac3cc418709/daff-1.3.46.tar.gz
       - pypi: https://files.pythonhosted.org/packages/b4/62/cd8cdaf5fb096b54aa6202265b3982aa17184e14592e3835462a3dbb7ab3/dbt_adapters-1.4.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5b/ec/aa9eed89f4e20ad369f66fc18a37a99e558f895ddbab31d1b99859c14981/dbt_common-1.7.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/43/4c/bc3a88a3a2a7404423d57dd1303c688a3e719ebe2b685f02341141f54382/dbt_core-1.8.5-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/02/ec/3c940dc2360d0f22d687cca656fc4b0c1797a684aa03f37dedaffd661a02/dbt_core-1.8.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b1/be/825ad08bf8d716fe1fe34277229cce896b5b61cc919a856e7296dd0b4b21/dbt_duckdb-1.8.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/77/1f/ca6d66d67464df1ea8e814d09b1100d15672ae4ce7f0dff41f67956e5f7f/dbt_extractor-0.5.1-cp38-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl
       - pypi: https://files.pythonhosted.org/packages/97/7d/33d850bd35652e65724980fb94b07e7bd24b83891dcdd893d035503d3ec1/dbt_metricflow-0.7.1-py3-none-any.whl
@@ -296,7 +296,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/0e/fc/82796c10545f3df9882566c79debac28b664e3a3a08fdb493ac3cc418709/daff-1.3.46.tar.gz
       - pypi: https://files.pythonhosted.org/packages/b4/62/cd8cdaf5fb096b54aa6202265b3982aa17184e14592e3835462a3dbb7ab3/dbt_adapters-1.4.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5b/ec/aa9eed89f4e20ad369f66fc18a37a99e558f895ddbab31d1b99859c14981/dbt_common-1.7.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/43/4c/bc3a88a3a2a7404423d57dd1303c688a3e719ebe2b685f02341141f54382/dbt_core-1.8.5-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/02/ec/3c940dc2360d0f22d687cca656fc4b0c1797a684aa03f37dedaffd661a02/dbt_core-1.8.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b1/be/825ad08bf8d716fe1fe34277229cce896b5b61cc919a856e7296dd0b4b21/dbt_duckdb-1.8.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/77/1f/ca6d66d67464df1ea8e814d09b1100d15672ae4ce7f0dff41f67956e5f7f/dbt_extractor-0.5.1-cp38-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl
       - pypi: https://files.pythonhosted.org/packages/97/7d/33d850bd35652e65724980fb94b07e7bd24b83891dcdd893d035503d3ec1/dbt_metricflow-0.7.1-py3-none-any.whl
@@ -397,7 +397,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/0e/fc/82796c10545f3df9882566c79debac28b664e3a3a08fdb493ac3cc418709/daff-1.3.46.tar.gz
       - pypi: https://files.pythonhosted.org/packages/b4/62/cd8cdaf5fb096b54aa6202265b3982aa17184e14592e3835462a3dbb7ab3/dbt_adapters-1.4.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5b/ec/aa9eed89f4e20ad369f66fc18a37a99e558f895ddbab31d1b99859c14981/dbt_common-1.7.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/43/4c/bc3a88a3a2a7404423d57dd1303c688a3e719ebe2b685f02341141f54382/dbt_core-1.8.5-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/02/ec/3c940dc2360d0f22d687cca656fc4b0c1797a684aa03f37dedaffd661a02/dbt_core-1.8.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b1/be/825ad08bf8d716fe1fe34277229cce896b5b61cc919a856e7296dd0b4b21/dbt_duckdb-1.8.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/30/da/a9528ca8224317aad1dab22f77468dd13e94c46b56db953b5b1e3b698a8f/dbt_extractor-0.5.1-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/97/7d/33d850bd35652e65724980fb94b07e7bd24b83891dcdd893d035503d3ec1/dbt_metricflow-0.7.1-py3-none-any.whl
@@ -512,7 +512,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/0e/fc/82796c10545f3df9882566c79debac28b664e3a3a08fdb493ac3cc418709/daff-1.3.46.tar.gz
       - pypi: https://files.pythonhosted.org/packages/b4/62/cd8cdaf5fb096b54aa6202265b3982aa17184e14592e3835462a3dbb7ab3/dbt_adapters-1.4.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5b/ec/aa9eed89f4e20ad369f66fc18a37a99e558f895ddbab31d1b99859c14981/dbt_common-1.7.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/43/4c/bc3a88a3a2a7404423d57dd1303c688a3e719ebe2b685f02341141f54382/dbt_core-1.8.5-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/02/ec/3c940dc2360d0f22d687cca656fc4b0c1797a684aa03f37dedaffd661a02/dbt_core-1.8.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b1/be/825ad08bf8d716fe1fe34277229cce896b5b61cc919a856e7296dd0b4b21/dbt_duckdb-1.8.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/6d/96/caef63d79f3a06bcae1aca43302c1b9efa58590644efca41c4404607510e/dbt_extractor-0.5.1-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/97/7d/33d850bd35652e65724980fb94b07e7bd24b83891dcdd893d035503d3ec1/dbt_metricflow-0.7.1-py3-none-any.whl
@@ -619,7 +619,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/0e/fc/82796c10545f3df9882566c79debac28b664e3a3a08fdb493ac3cc418709/daff-1.3.46.tar.gz
       - pypi: https://files.pythonhosted.org/packages/b4/62/cd8cdaf5fb096b54aa6202265b3982aa17184e14592e3835462a3dbb7ab3/dbt_adapters-1.4.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5b/ec/aa9eed89f4e20ad369f66fc18a37a99e558f895ddbab31d1b99859c14981/dbt_common-1.7.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/43/4c/bc3a88a3a2a7404423d57dd1303c688a3e719ebe2b685f02341141f54382/dbt_core-1.8.5-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/02/ec/3c940dc2360d0f22d687cca656fc4b0c1797a684aa03f37dedaffd661a02/dbt_core-1.8.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b1/be/825ad08bf8d716fe1fe34277229cce896b5b61cc919a856e7296dd0b4b21/dbt_duckdb-1.8.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/77/1f/ca6d66d67464df1ea8e814d09b1100d15672ae4ce7f0dff41f67956e5f7f/dbt_extractor-0.5.1-cp38-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl
       - pypi: https://files.pythonhosted.org/packages/97/7d/33d850bd35652e65724980fb94b07e7bd24b83891dcdd893d035503d3ec1/dbt_metricflow-0.7.1-py3-none-any.whl
@@ -726,7 +726,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/0e/fc/82796c10545f3df9882566c79debac28b664e3a3a08fdb493ac3cc418709/daff-1.3.46.tar.gz
       - pypi: https://files.pythonhosted.org/packages/b4/62/cd8cdaf5fb096b54aa6202265b3982aa17184e14592e3835462a3dbb7ab3/dbt_adapters-1.4.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5b/ec/aa9eed89f4e20ad369f66fc18a37a99e558f895ddbab31d1b99859c14981/dbt_common-1.7.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/43/4c/bc3a88a3a2a7404423d57dd1303c688a3e719ebe2b685f02341141f54382/dbt_core-1.8.5-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/02/ec/3c940dc2360d0f22d687cca656fc4b0c1797a684aa03f37dedaffd661a02/dbt_core-1.8.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b1/be/825ad08bf8d716fe1fe34277229cce896b5b61cc919a856e7296dd0b4b21/dbt_duckdb-1.8.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/77/1f/ca6d66d67464df1ea8e814d09b1100d15672ae4ce7f0dff41f67956e5f7f/dbt_extractor-0.5.1-cp38-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl
       - pypi: https://files.pythonhosted.org/packages/97/7d/33d850bd35652e65724980fb94b07e7bd24b83891dcdd893d035503d3ec1/dbt_metricflow-0.7.1-py3-none-any.whl
@@ -1169,9 +1169,9 @@ packages:
   requires_python: '>=3.8'
 - kind: pypi
   name: dbt-core
-  version: 1.8.5
-  url: https://files.pythonhosted.org/packages/43/4c/bc3a88a3a2a7404423d57dd1303c688a3e719ebe2b685f02341141f54382/dbt_core-1.8.5-py3-none-any.whl
-  sha256: 194f0bd5d5b83b3324f9ab50d6b675b8ddfe9bf2e5d7b6c8e677fa0df92a8470
+  version: 1.8.6
+  url: https://files.pythonhosted.org/packages/02/ec/3c940dc2360d0f22d687cca656fc4b0c1797a684aa03f37dedaffd661a02/dbt_core-1.8.6-py3-none-any.whl
+  sha256: a0d7187ff69615613f091b48909b3ab719def643e7ccb74670f76dd482b4933c
   requires_dist:
   - agate<1.10,>=1.7.0
   - jinja2<4,>=3.1.3

@@ -1,3 +1,10 @@
+# vim: set ft=yaml :
+#
+# https://docs.getdbt.com/docs/build/sources
+# https://docs.getdbt.com/reference/source-properties
+# https://docs.getdbt.com/reference/resource-properties/freshness
+
+
 version: 2
 
 sources:
@@ -14,11 +21,13 @@ sources:
         freshness: null
       - name: raw_orders
         description: One record per order (consisting of one or more order items)
+        # We assume that ordered_at is already UTC, so no need to convert to UTC.
         loaded_at_field: ordered_at
       - name: raw_items
         description: Items included in an order
         freshness: null
       - name: raw_stores
+        # We assume that opened_at is already UTC, so no need to convert to UTC.
         loaded_at_field: opened_at
       - name: raw_products
         description: One record per SKU for items sold in stores

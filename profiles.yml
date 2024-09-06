@@ -9,7 +9,5 @@ jaffle_shop:
   outputs:
     local:
       path: 'dbt.duckdb'
-      settings:
-        TimeZone: 'UTC'
       threads: 1
       type: 'duckdb'

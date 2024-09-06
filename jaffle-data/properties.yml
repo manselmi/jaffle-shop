@@ -25,7 +25,7 @@ seeds:
       column_types:
         id: 'uuid'
         customer: 'uuid'
-        ordered_at: 'timestamptz'
+        ordered_at: 'timestamp'
         store_id: 'uuid'
         subtotal: 'bigint'
         tax_paid: 'bigint'
@@ -62,5 +62,5 @@ seeds:
       column_types:
         id: 'uuid'
         user_id: 'uuid'
-        tweeted_at: 'timestamptz'
+        tweeted_at: 'timestamp'
         content: 'varchar'

@@ -24,7 +24,7 @@ renamed as (
         {{ cents_to_dollars('order_total') }} as order_total,
 
         ---------- timestamps
-        ordered_at
+        timezone('UTC', ordered_at) as ordered_at  -- We assume that raw_orders.ordered_at is UTC.
 
     from source
 

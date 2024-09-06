@@ -47,10 +47,12 @@ semantic_models:
       - name: customer_type
         type: categorical
       - name: first_ordered_at
+        expr: first_ordered_at::date
         type: time
         type_params:
           time_granularity: day
       - name: last_ordered_at
+        expr: last_ordered_at::date
         type: time
         type_params:
           time_granularity: day

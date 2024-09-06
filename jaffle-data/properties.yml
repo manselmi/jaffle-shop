@@ -1,0 +1,66 @@
+# vim: set ft=yaml :
+#
+# https://docs.getdbt.com/reference/seed-properties
+
+
+version: 2
+
+seeds:
+
+  - name: 'raw_customers'
+    config:
+      column_types:
+        id: 'uuid'
+        name: 'varchar'
+
+  - name: 'raw_items'
+    config:
+      column_types:
+        id: 'uuid'
+        order_id: 'uuid'
+        sku: 'varchar'
+
+  - name: 'raw_orders'
+    config:
+      column_types:
+        id: 'uuid'
+        customer: 'uuid'
+        ordered_at: 'timestamptz'
+        store_id: 'uuid'
+        subtotal: 'bigint'
+        tax_paid: 'bigint'
+        order_total: 'bigint'
+
+  - name: 'raw_products'
+    config:
+      column_types:
+        sku: 'varchar'
+        name: 'varchar'
+        type: 'varchar'
+        price: 'bigint'
+        description: 'varchar'
+
+  - name: 'raw_stores'
+    config:
+      column_types:
+        id: 'uuid'
+        name: 'varchar'
+        opened_at: 'timestamp'
+        tax_rate: 'decimal(5,4)'
+
+  - name: 'raw_supplies'
+    config:
+      column_types:
+        id: 'varchar'
+        name: 'varchar'
+        cost: 'bigint'
+        perishable: 'boolean'
+        sku: 'varchar'
+
+  - name: 'raw_tweets'
+    config:
+      column_types:
+        id: 'uuid'
+        user_id: 'uuid'
+        tweeted_at: 'timestamptz'
+        content: 'varchar'

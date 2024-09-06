@@ -37,38 +37,38 @@ unit_tests:
       - input: ref('order_items')
         rows:
           - {
-              order_id: 1,
-              order_item_id: 1,
+              order_id: "69db5001-b2b5-4bb5-af3d-f1fc9834d687",
+              order_item_id: "7133947b-6d9d-4ed7-b070-b4ec3f83f2ac",
               is_drink_item: false,
               is_food_item: true,
             }
           - {
-              order_id: 1,
-              order_item_id: 2,
+              order_id: "69db5001-b2b5-4bb5-af3d-f1fc9834d687",
+              order_item_id: "f4e5f789-d713-4417-9f47-539442dd1df3",
               is_drink_item: true,
               is_food_item: false,
             }
           - {
-              order_id: 2,
-              order_item_id: 3,
+              order_id: "dda2e9e0-b07d-4f98-b991-6618e3a2a7c7",
+              order_item_id: "fdf6bb2c-1f2a-4588-80d4-44de178bff9f",
               is_drink_item: false,
               is_food_item: true,
             }
       - input: ref('stg_orders')
         rows:
-          - { order_id: 1 }
-          - { order_id: 2 }
+          - { order_id: "69db5001-b2b5-4bb5-af3d-f1fc9834d687" }
+          - { order_id: "dda2e9e0-b07d-4f98-b991-6618e3a2a7c7" }
     expect:
       rows:
         - {
-            order_id: 1,
+            order_id: "69db5001-b2b5-4bb5-af3d-f1fc9834d687",
             count_food_items: 1,
             count_drink_items: 1,
             is_drink_order: true,
             is_food_order: true,
           }
         - {
-            order_id: 2,
+            order_id: "dda2e9e0-b07d-4f98-b991-6618e3a2a7c7",
             count_food_items: 1,
             count_drink_items: 0,
             is_drink_order: false,
@@ -93,7 +93,7 @@ semantic_models:
         expr: customer_id
     dimensions:
       - name: ordered_at
-        expr: ordered_at
+        expr: ordered_at::date
         type: time
         type_params:
           time_granularity: day

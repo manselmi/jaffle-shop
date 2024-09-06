@@ -16,13 +16,13 @@ unit_tests:
       - input: source('ecom', 'raw_stores')
         rows:
           - {
-              id: 1,
+              id: "2de6e25f-ed6d-4c7c-abb9-8ea360bb5194",
               name: "Vice City",
               tax_rate: 0.2,
               opened_at: "2016-09-01T00:00:00",
             }
           - {
-              id: 2,
+              id: "c92349bc-cc82-4640-b9ef-d8fc42fdadf8",
               name: "San Andreas",
               tax_rate: 0.1,
               opened_at: "2079-10-27T23:59:59.9999",
@@ -30,13 +30,13 @@ unit_tests:
     expect:
       rows:
         - {
-            location_id: 1,
+            location_id: "2de6e25f-ed6d-4c7c-abb9-8ea360bb5194",
             location_name: "Vice City",
             tax_rate: 0.2,
             opened_date: "2016-09-01",
           }
         - {
-            location_id: 2,
+            location_id: "c92349bc-cc82-4640-b9ef-d8fc42fdadf8",
             location_name: "San Andreas",
             tax_rate: 0.1,
             opened_date: "2079-10-27",

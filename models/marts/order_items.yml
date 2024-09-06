@@ -18,27 +18,57 @@ unit_tests:
     given:
       - input: ref('stg_supplies')
         rows:
-          - { product_id: 1, supply_cost: 4.50 }
-          - { product_id: 2, supply_cost: 3.50 }
-          - { product_id: 2, supply_cost: 5.00 }
+          - {
+              product_id: "5d10d324-67bc-4bdf-882f-c2778d4058a0",
+              supply_cost: 4.50,
+            }
+          - {
+              product_id: "88ae3f13-e75a-4261-9fe6-f9d7f6231aab",
+              supply_cost: 3.50,
+            }
+          - {
+              product_id: "88ae3f13-e75a-4261-9fe6-f9d7f6231aab",
+              supply_cost: 5.00,
+            }
       - input: ref('stg_products')
         rows:
-          - { product_id: 1 }
-          - { product_id: 2 }
+          - { product_id: "5d10d324-67bc-4bdf-882f-c2778d4058a0" }
+          - { product_id: "88ae3f13-e75a-4261-9fe6-f9d7f6231aab" }
       - input: ref('stg_order_items')
         rows:
-          - { order_id: 1, product_id: 1 }
-          - { order_id: 2, product_id: 2 }
-          - { order_id: 2, product_id: 2 }
+          - {
+              order_id: "0466b9c5-3bfd-4411-b813-74dce255a7f3",
+              product_id: "5d10d324-67bc-4bdf-882f-c2778d4058a0",
+            }
+          - {
+              order_id: "6ef50dd9-701a-434c-a786-598ff8d65ca4",
+              product_id: "88ae3f13-e75a-4261-9fe6-f9d7f6231aab",
+            }
+          - {
+              order_id: "6ef50dd9-701a-434c-a786-598ff8d65ca4",
+              product_id: "88ae3f13-e75a-4261-9fe6-f9d7f6231aab",
+            }
       - input: ref('stg_orders')
         rows:
-          - { order_id: 1 }
-          - { order_id: 2 }
+          - { order_id: "0466b9c5-3bfd-4411-b813-74dce255a7f3" }
+          - { order_id: "6ef50dd9-701a-434c-a786-598ff8d65ca4" }
     expect:
       rows:
-        - { order_id: 1, product_id: 1, supply_cost: 4.50 }
-        - { order_id: 2, product_id: 2, supply_cost: 8.50 }
-        - { order_id: 2, product_id: 2, supply_cost: 8.50 }
+        - {
+            order_id: "0466b9c5-3bfd-4411-b813-74dce255a7f3",
+            product_id: "5d10d324-67bc-4bdf-882f-c2778d4058a0",
+            supply_cost: 4.50,
+          }
+        - {
+            order_id: "6ef50dd9-701a-434c-a786-598ff8d65ca4",
+            product_id: "88ae3f13-e75a-4261-9fe6-f9d7f6231aab",
+            supply_cost: 8.50,
+          }
+        - {
+            order_id: "6ef50dd9-701a-434c-a786-598ff8d65ca4",
+            product_id: "88ae3f13-e75a-4261-9fe6-f9d7f6231aab",
+            supply_cost: 8.50,
+          }
 
 semantic_models:
   - name: order_item
@@ -59,7 +89,7 @@ semantic_models:
         expr: product_id
     dimensions:
       - name: ordered_at
-        expr: ordered_at
+        expr: ordered_at::date
         type: time
         type_params:
           time_granularity: day

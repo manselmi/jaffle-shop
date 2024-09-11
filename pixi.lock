@@ -37,7 +37,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/00/2e/d53fa4befbf2cfa713304affc7ca780ce4fc1fd8710527771b58311a3229/click-8.1.7-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/0e/fc/82796c10545f3df9882566c79debac28b664e3a3a08fdb493ac3cc418709/daff-1.3.46.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/b4/62/cd8cdaf5fb096b54aa6202265b3982aa17184e14592e3835462a3dbb7ab3/dbt_adapters-1.4.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/1c/07/5953ffa4e11322cc80a3b90a77037b3ca4a2cb8645ec1913e5b5f1a82243/dbt_adapters-1.5.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/37/c0/caa422997704f66ed2b412a30b2cb362a8701de1c9a588c8e188214fca7f/dbt_common-1.8.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/02/ec/3c940dc2360d0f22d687cca656fc4b0c1797a684aa03f37dedaffd661a02/dbt_core-1.8.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b1/be/825ad08bf8d716fe1fe34277229cce896b5b61cc919a856e7296dd0b4b21/dbt_duckdb-1.8.3-py3-none-any.whl
@@ -79,7 +79,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a4/62/02da182e544a51a5c3ccf4b03ab79df279f9c60c5e82d5e8bec7ca26ac11/python_slugify-8.0.4-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/1b/b4/afd75551a3b910abd1d922dbd45e49e5deeb4d47dc50209ce489ba9844dd/pytimeparse-1.1.8-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/9c/3d/a121f284241f08268b21359bd425f7d4825cffc5ac5cd0e1b3d82ffd2b10/pytz-2024.1-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b9/2b/614b4752f2e127db5cc206abc23a8c19678e92b23c3db30fc86ab731d3bd/PyYAML-6.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/1e/bf/4717fb73e06c717d25472433420dec570cf8ee283a23529a643eb6317284/rapidfuzz-3.9.7-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/b7/59/2056f61236782a2c86b33906c025d4f4a0b17be0161b63b70fd9e8775d36/referencing-0.35.1-py3-none-any.whl
@@ -128,7 +128,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/00/2e/d53fa4befbf2cfa713304affc7ca780ce4fc1fd8710527771b58311a3229/click-8.1.7-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/0e/fc/82796c10545f3df9882566c79debac28b664e3a3a08fdb493ac3cc418709/daff-1.3.46.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/b4/62/cd8cdaf5fb096b54aa6202265b3982aa17184e14592e3835462a3dbb7ab3/dbt_adapters-1.4.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/1c/07/5953ffa4e11322cc80a3b90a77037b3ca4a2cb8645ec1913e5b5f1a82243/dbt_adapters-1.5.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/37/c0/caa422997704f66ed2b412a30b2cb362a8701de1c9a588c8e188214fca7f/dbt_common-1.8.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/02/ec/3c940dc2360d0f22d687cca656fc4b0c1797a684aa03f37dedaffd661a02/dbt_core-1.8.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b1/be/825ad08bf8d716fe1fe34277229cce896b5b61cc919a856e7296dd0b4b21/dbt_duckdb-1.8.3-py3-none-any.whl
@@ -170,7 +170,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a4/62/02da182e544a51a5c3ccf4b03ab79df279f9c60c5e82d5e8bec7ca26ac11/python_slugify-8.0.4-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/1b/b4/afd75551a3b910abd1d922dbd45e49e5deeb4d47dc50209ce489ba9844dd/pytimeparse-1.1.8-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/9c/3d/a121f284241f08268b21359bd425f7d4825cffc5ac5cd0e1b3d82ffd2b10/pytz-2024.1-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/c3/93/9916574aa8c00aa06bbac729972eb1071d002b8e158bd0e83a3b9a20a1f7/PyYAML-6.0.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/f0/d5/294e26070cc5f3ad079c001606f6fcccbd6e0d7e8b58dd1c9d4048971706/rapidfuzz-3.9.7-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/b7/59/2056f61236782a2c86b33906c025d4f4a0b17be0161b63b70fd9e8775d36/referencing-0.35.1-py3-none-any.whl
@@ -211,7 +211,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/00/2e/d53fa4befbf2cfa713304affc7ca780ce4fc1fd8710527771b58311a3229/click-8.1.7-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/0e/fc/82796c10545f3df9882566c79debac28b664e3a3a08fdb493ac3cc418709/daff-1.3.46.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/b4/62/cd8cdaf5fb096b54aa6202265b3982aa17184e14592e3835462a3dbb7ab3/dbt_adapters-1.4.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/1c/07/5953ffa4e11322cc80a3b90a77037b3ca4a2cb8645ec1913e5b5f1a82243/dbt_adapters-1.5.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/37/c0/caa422997704f66ed2b412a30b2cb362a8701de1c9a588c8e188214fca7f/dbt_common-1.8.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/02/ec/3c940dc2360d0f22d687cca656fc4b0c1797a684aa03f37dedaffd661a02/dbt_core-1.8.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b1/be/825ad08bf8d716fe1fe34277229cce896b5b61cc919a856e7296dd0b4b21/dbt_duckdb-1.8.3-py3-none-any.whl
@@ -253,7 +253,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a4/62/02da182e544a51a5c3ccf4b03ab79df279f9c60c5e82d5e8bec7ca26ac11/python_slugify-8.0.4-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/1b/b4/afd75551a3b910abd1d922dbd45e49e5deeb4d47dc50209ce489ba9844dd/pytimeparse-1.1.8-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/9c/3d/a121f284241f08268b21359bd425f7d4825cffc5ac5cd0e1b3d82ffd2b10/pytz-2024.1-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/86/0c/c581167fc46d6d6d7ddcfb8c843a4de25bdd27e4466938109ca68492292c/PyYAML-6.0.2-cp312-cp312-macosx_10_9_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/c5/69/3382886cf73774d6b4085e177e665326ee065d806ed775aa61e5d9e5cd8a/rapidfuzz-3.9.7-cp312-cp312-macosx_10_9_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/b7/59/2056f61236782a2c86b33906c025d4f4a0b17be0161b63b70fd9e8775d36/referencing-0.35.1-py3-none-any.whl
@@ -294,7 +294,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/00/2e/d53fa4befbf2cfa713304affc7ca780ce4fc1fd8710527771b58311a3229/click-8.1.7-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/0e/fc/82796c10545f3df9882566c79debac28b664e3a3a08fdb493ac3cc418709/daff-1.3.46.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/b4/62/cd8cdaf5fb096b54aa6202265b3982aa17184e14592e3835462a3dbb7ab3/dbt_adapters-1.4.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/1c/07/5953ffa4e11322cc80a3b90a77037b3ca4a2cb8645ec1913e5b5f1a82243/dbt_adapters-1.5.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/37/c0/caa422997704f66ed2b412a30b2cb362a8701de1c9a588c8e188214fca7f/dbt_common-1.8.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/02/ec/3c940dc2360d0f22d687cca656fc4b0c1797a684aa03f37dedaffd661a02/dbt_core-1.8.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b1/be/825ad08bf8d716fe1fe34277229cce896b5b61cc919a856e7296dd0b4b21/dbt_duckdb-1.8.3-py3-none-any.whl
@@ -336,7 +336,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a4/62/02da182e544a51a5c3ccf4b03ab79df279f9c60c5e82d5e8bec7ca26ac11/python_slugify-8.0.4-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/1b/b4/afd75551a3b910abd1d922dbd45e49e5deeb4d47dc50209ce489ba9844dd/pytimeparse-1.1.8-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/9c/3d/a121f284241f08268b21359bd425f7d4825cffc5ac5cd0e1b3d82ffd2b10/pytz-2024.1-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a8/0c/38374f5bb272c051e2a69281d71cba6fdb983413e6758b84482905e29a5d/PyYAML-6.0.2-cp312-cp312-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/33/58/d67551479432be743b9e36eaf46e8ca6a76a8edfeb060137856576836129/rapidfuzz-3.9.7-cp312-cp312-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/b7/59/2056f61236782a2c86b33906c025d4f4a0b17be0161b63b70fd9e8775d36/referencing-0.35.1-py3-none-any.whl
@@ -395,7 +395,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/00/2e/d53fa4befbf2cfa713304affc7ca780ce4fc1fd8710527771b58311a3229/click-8.1.7-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/0e/fc/82796c10545f3df9882566c79debac28b664e3a3a08fdb493ac3cc418709/daff-1.3.46.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/b4/62/cd8cdaf5fb096b54aa6202265b3982aa17184e14592e3835462a3dbb7ab3/dbt_adapters-1.4.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/1c/07/5953ffa4e11322cc80a3b90a77037b3ca4a2cb8645ec1913e5b5f1a82243/dbt_adapters-1.5.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/37/c0/caa422997704f66ed2b412a30b2cb362a8701de1c9a588c8e188214fca7f/dbt_common-1.8.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/02/ec/3c940dc2360d0f22d687cca656fc4b0c1797a684aa03f37dedaffd661a02/dbt_core-1.8.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b1/be/825ad08bf8d716fe1fe34277229cce896b5b61cc919a856e7296dd0b4b21/dbt_duckdb-1.8.3-py3-none-any.whl
@@ -449,7 +449,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a4/62/02da182e544a51a5c3ccf4b03ab79df279f9c60c5e82d5e8bec7ca26ac11/python_slugify-8.0.4-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/1b/b4/afd75551a3b910abd1d922dbd45e49e5deeb4d47dc50209ce489ba9844dd/pytimeparse-1.1.8-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/9c/3d/a121f284241f08268b21359bd425f7d4825cffc5ac5cd0e1b3d82ffd2b10/pytz-2024.1-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b9/2b/614b4752f2e127db5cc206abc23a8c19678e92b23c3db30fc86ab731d3bd/PyYAML-6.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/1e/bf/4717fb73e06c717d25472433420dec570cf8ee283a23529a643eb6317284/rapidfuzz-3.9.7-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/b7/59/2056f61236782a2c86b33906c025d4f4a0b17be0161b63b70fd9e8775d36/referencing-0.35.1-py3-none-any.whl
@@ -510,7 +510,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/00/2e/d53fa4befbf2cfa713304affc7ca780ce4fc1fd8710527771b58311a3229/click-8.1.7-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/0e/fc/82796c10545f3df9882566c79debac28b664e3a3a08fdb493ac3cc418709/daff-1.3.46.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/b4/62/cd8cdaf5fb096b54aa6202265b3982aa17184e14592e3835462a3dbb7ab3/dbt_adapters-1.4.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/1c/07/5953ffa4e11322cc80a3b90a77037b3ca4a2cb8645ec1913e5b5f1a82243/dbt_adapters-1.5.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/37/c0/caa422997704f66ed2b412a30b2cb362a8701de1c9a588c8e188214fca7f/dbt_common-1.8.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/02/ec/3c940dc2360d0f22d687cca656fc4b0c1797a684aa03f37dedaffd661a02/dbt_core-1.8.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b1/be/825ad08bf8d716fe1fe34277229cce896b5b61cc919a856e7296dd0b4b21/dbt_duckdb-1.8.3-py3-none-any.whl
@@ -564,7 +564,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a4/62/02da182e544a51a5c3ccf4b03ab79df279f9c60c5e82d5e8bec7ca26ac11/python_slugify-8.0.4-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/1b/b4/afd75551a3b910abd1d922dbd45e49e5deeb4d47dc50209ce489ba9844dd/pytimeparse-1.1.8-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/9c/3d/a121f284241f08268b21359bd425f7d4825cffc5ac5cd0e1b3d82ffd2b10/pytz-2024.1-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/c3/93/9916574aa8c00aa06bbac729972eb1071d002b8e158bd0e83a3b9a20a1f7/PyYAML-6.0.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/f0/d5/294e26070cc5f3ad079c001606f6fcccbd6e0d7e8b58dd1c9d4048971706/rapidfuzz-3.9.7-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/b7/59/2056f61236782a2c86b33906c025d4f4a0b17be0161b63b70fd9e8775d36/referencing-0.35.1-py3-none-any.whl
@@ -617,7 +617,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/00/2e/d53fa4befbf2cfa713304affc7ca780ce4fc1fd8710527771b58311a3229/click-8.1.7-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/0e/fc/82796c10545f3df9882566c79debac28b664e3a3a08fdb493ac3cc418709/daff-1.3.46.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/b4/62/cd8cdaf5fb096b54aa6202265b3982aa17184e14592e3835462a3dbb7ab3/dbt_adapters-1.4.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/1c/07/5953ffa4e11322cc80a3b90a77037b3ca4a2cb8645ec1913e5b5f1a82243/dbt_adapters-1.5.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/37/c0/caa422997704f66ed2b412a30b2cb362a8701de1c9a588c8e188214fca7f/dbt_common-1.8.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/02/ec/3c940dc2360d0f22d687cca656fc4b0c1797a684aa03f37dedaffd661a02/dbt_core-1.8.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b1/be/825ad08bf8d716fe1fe34277229cce896b5b61cc919a856e7296dd0b4b21/dbt_duckdb-1.8.3-py3-none-any.whl
@@ -671,7 +671,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a4/62/02da182e544a51a5c3ccf4b03ab79df279f9c60c5e82d5e8bec7ca26ac11/python_slugify-8.0.4-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/1b/b4/afd75551a3b910abd1d922dbd45e49e5deeb4d47dc50209ce489ba9844dd/pytimeparse-1.1.8-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/9c/3d/a121f284241f08268b21359bd425f7d4825cffc5ac5cd0e1b3d82ffd2b10/pytz-2024.1-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/86/0c/c581167fc46d6d6d7ddcfb8c843a4de25bdd27e4466938109ca68492292c/PyYAML-6.0.2-cp312-cp312-macosx_10_9_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/c5/69/3382886cf73774d6b4085e177e665326ee065d806ed775aa61e5d9e5cd8a/rapidfuzz-3.9.7-cp312-cp312-macosx_10_9_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/b7/59/2056f61236782a2c86b33906c025d4f4a0b17be0161b63b70fd9e8775d36/referencing-0.35.1-py3-none-any.whl
@@ -724,7 +724,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/00/2e/d53fa4befbf2cfa713304affc7ca780ce4fc1fd8710527771b58311a3229/click-8.1.7-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/0e/fc/82796c10545f3df9882566c79debac28b664e3a3a08fdb493ac3cc418709/daff-1.3.46.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/b4/62/cd8cdaf5fb096b54aa6202265b3982aa17184e14592e3835462a3dbb7ab3/dbt_adapters-1.4.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/1c/07/5953ffa4e11322cc80a3b90a77037b3ca4a2cb8645ec1913e5b5f1a82243/dbt_adapters-1.5.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/37/c0/caa422997704f66ed2b412a30b2cb362a8701de1c9a588c8e188214fca7f/dbt_common-1.8.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/02/ec/3c940dc2360d0f22d687cca656fc4b0c1797a684aa03f37dedaffd661a02/dbt_core-1.8.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b1/be/825ad08bf8d716fe1fe34277229cce896b5b61cc919a856e7296dd0b4b21/dbt_duckdb-1.8.3-py3-none-any.whl
@@ -778,7 +778,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a4/62/02da182e544a51a5c3ccf4b03ab79df279f9c60c5e82d5e8bec7ca26ac11/python_slugify-8.0.4-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/1b/b4/afd75551a3b910abd1d922dbd45e49e5deeb4d47dc50209ce489ba9844dd/pytimeparse-1.1.8-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/9c/3d/a121f284241f08268b21359bd425f7d4825cffc5ac5cd0e1b3d82ffd2b10/pytz-2024.1-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a8/0c/38374f5bb272c051e2a69281d71cba6fdb983413e6758b84482905e29a5d/PyYAML-6.0.2-cp312-cp312-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/33/58/d67551479432be743b9e36eaf46e8ca6a76a8edfeb060137856576836129/rapidfuzz-3.9.7-cp312-cp312-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/b7/59/2056f61236782a2c86b33906c025d4f4a0b17be0161b63b70fd9e8775d36/referencing-0.35.1-py3-none-any.whl
@@ -1117,12 +1117,12 @@ packages:
   sha256: 22d0da9fd6a3275b54c926a9c97b180f9258aad65113ea18f3fec52cbadcd818
 - kind: pypi
   name: dbt-adapters
-  version: 1.4.1
-  url: https://files.pythonhosted.org/packages/b4/62/cd8cdaf5fb096b54aa6202265b3982aa17184e14592e3835462a3dbb7ab3/dbt_adapters-1.4.1-py3-none-any.whl
-  sha256: ace4928ca64c7c97bbe4dbe7287b0907496bc9bd6951bbadb1034a93b4dc40f7
+  version: 1.5.0
+  url: https://files.pythonhosted.org/packages/1c/07/5953ffa4e11322cc80a3b90a77037b3ca4a2cb8645ec1913e5b5f1a82243/dbt_adapters-1.5.0-py3-none-any.whl
+  sha256: d3fecd5252379bbd232c800493e0c2bb7ceda618f5c96b9d2324d343021e9dc5
   requires_dist:
   - agate<2.0,>=1.0
-  - dbt-common<2.0,>=1.6
+  - dbt-common<2.0,>=1.8
   - mashumaro[msgpack]<4.0,>=3.0
   - protobuf<5.0,>=3.0
   - pytz>=2015.7
@@ -2669,9 +2669,9 @@ packages:
   sha256: 04b7be6cc8bd9f5647a6325444926c3ac34ee6bc7e69da4367ba282f076036bd
 - kind: pypi
   name: pytz
-  version: '2024.1'
-  url: https://files.pythonhosted.org/packages/9c/3d/a121f284241f08268b21359bd425f7d4825cffc5ac5cd0e1b3d82ffd2b10/pytz-2024.1-py2.py3-none-any.whl
-  sha256: 328171f4e3623139da4983451950b28e95ac706e13f3f2630a879749e7a8b319
+  version: '2024.2'
+  url: https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl
+  sha256: 31c7c1817eb7fae7ca4b8c7ee50c72f93aa2dd863de768e1ef4245d426aa0725
 - kind: pypi
   name: pyyaml
   version: 6.0.2

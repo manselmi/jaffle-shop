@@ -1,4 +1,4 @@
-.pixi
-dbt_packages
-macros
-target
+.pixi/
+dbt_packages/
+macros/
+target/

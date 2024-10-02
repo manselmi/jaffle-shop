@@ -24,11 +24,10 @@ dbt-metricflow = { version = '>=0.7.1' }
 jafgen = { version = '>=0.4.14' }
 
 [tool.pixi.tasks]
-all = { depends-on = ['dbt-deps', 'dbt-seed', 'dbt-run', 'dbt-test', 'mf'] }
+all = { depends-on = ['dbt-deps', 'dbt-run', 'dbt-test', 'mf'] }
 jafgen = { cmd = ['jafgen'], outputs = ['jaffle-data/*.csv'] }
 dbt-deps = { cmd = ['dbt', 'deps'] }
-dbt-seed = { cmd = ['dbt', 'seed'], depends-on = ['jafgen'] }
-dbt-run = { cmd = ['dbt', 'run'] }
+dbt-run = { cmd = ['dbt', 'run'], depends-on = ['jafgen'] }
 dbt-test = { cmd = ['dbt', 'test'] }
 mf = { depends-on = ['mf-health-checks', 'mf-validate-configs'] }
 mf-health-checks = { cmd = ['mf', 'health-checks'] }

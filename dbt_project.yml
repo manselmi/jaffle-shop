@@ -12,7 +12,7 @@ version: '0.1.0'
 profile: 'jaffle_shop'
 
 model-paths: ['models']
-seed-paths: ['jaffle-data']
+seed-paths: ['seeds']
 test-paths: ['data-tests']
 analysis-paths: ['analyses']
 macro-paths: ['macros']
@@ -30,13 +30,13 @@ flags:
 models:
   jaffle_shop:
     staging:
-      +materialized: 'view'
+      +materialized: 'table'
     marts:
       +materialized: 'table'
 
 seeds:
   jaffle_shop:
-    +schema: 'raw'
+    +schema: 'seeds'
 
 vars:
   'dbt_date:time_zone': 'UTC'

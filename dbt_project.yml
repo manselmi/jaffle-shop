@@ -35,9 +35,5 @@ models:
     marts:
       +materialized: 'table'
 
-seeds:
-  jaffle_shop:
-    +schema: 'seeds'
-
 vars:
   'dbt_date:time_zone': 'UTC'

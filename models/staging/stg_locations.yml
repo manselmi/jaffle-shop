@@ -17,23 +17,23 @@ unit_tests:
         format: sql
         rows: |
           with T (id, name, opened_at, tax_rate) as (
-              select
-                  '2de6e25f-ed6d-4c7c-abb9-8ea360bb5194',
-                  'Vice City',
-                  '2016-09-01T00:00:00',
-                  '0.2'
-              union all
-              select
-                  'c92349bc-cc82-4640-b9ef-d8fc42fdadf8',
-                  'San Andreas',
-                  '2079-10-27T23:59:59.9999',
-                  '0.1'
+            select
+              '2de6e25f-ed6d-4c7c-abb9-8ea360bb5194',
+              'Vice City',
+              '2016-09-01T00:00:00',
+              '0.2'
+            union all
+            select
+              'c92349bc-cc82-4640-b9ef-d8fc42fdadf8',
+              'San Andreas',
+              '2079-10-27T23:59:59.9999',
+              '0.1'
           )
           select
-              T.id::uuid as id,
-              T.name,
-              T.opened_at::timestamp as opened_at,
-              T.tax_rate::decimal(5,4) as tax_rate
+            T.id::uuid as id,
+            T.name,
+            T.opened_at::timestamp as opened_at,
+            T.tax_rate::decimal(5,4) as tax_rate
           from T
     expect:
       rows:

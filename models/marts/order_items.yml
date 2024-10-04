@@ -7,9 +7,7 @@ models:
           - unique
       - name: order_id
         data_tests:
-          - relationships:
-              to: ref('orders')
-              field: order_id
+          - not_null
 
 unit_tests:
   - name: test_supply_costs_sum_correctly

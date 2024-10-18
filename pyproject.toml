@@ -18,20 +18,25 @@ platforms = [
 python = { version = '>=3.12.7,<3.13' }
 
 [tool.pixi.pypi-dependencies]
-dbt-core = { version = '>=1.8.7,<1.9' }
+dbt-core = { version = '>=1.9.0b2,<1.10' }
 dbt-duckdb = { version = '>=1.9.0' }
-dbt-metricflow = { version = '>=0.7.1' }
+# dbt-metricflow = { version = '>=0.7.1' }  # currently incompatible with dbt-core 1.9
 jafgen = { version = '>=0.4.14' }
 
 [tool.pixi.tasks]
-all = { depends-on = ['dbt-deps', 'dbt-run', 'dbt-test', 'mf'] }
+all = { depends-on = [
+  'dbt-deps',
+  'dbt-run',
+  'dbt-test',
+  # 'mf',
+] }
 jafgen = { cmd = ['jafgen'], outputs = ['jaffle-data/*.csv'] }
 dbt-deps = { cmd = ['dbt', 'deps'] }
 dbt-run = { cmd = ['dbt', 'run'], depends-on = ['jafgen'] }
 dbt-test = { cmd = ['dbt', 'test'] }
-mf = { depends-on = ['mf-health-checks', 'mf-validate-configs'] }
-mf-health-checks = { cmd = ['mf', 'health-checks'] }
-mf-validate-configs = { cmd = ['mf', 'validate-configs', '--show-all', '--verbose-issues'] }
+# mf = { depends-on = ['mf-health-checks', 'mf-validate-configs'] }
+# mf-health-checks = { cmd = ['mf', 'health-checks'] }
+# mf-validate-configs = { cmd = ['mf', 'validate-configs', '--show-all', '--verbose-issues'] }
 
 [tool.pixi.environments]
 default = { solve-group = 'default' }

@@ -23,9 +23,9 @@ clean-targets:
   - 'target'
 
 flags:
-  require_model_names_without_spaces: true
   send_anonymous_usage_stats: false
-  source_freshness_run_project_hooks: true
+  skip_nodes_if_on_run_start_fails: true
+  state_modified_compare_more_unrendered_values: true
 
 models:
   jaffle_shop:

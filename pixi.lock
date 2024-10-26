@@ -463,8 +463,8 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/e0/f9/0595336914c5619e5f28a1fb793285925a8cd4b432c9da0a987836c7f822/shellingham-1.5.4-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9f/8e/3310207a68118000ca27ac878b8386123628b335ecb3d4bec4743357f0d1/spinners-0.0.24-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/5e/ac/31bed7c5a46448b73477dd285bd2febdd753e439361549b88dd4f816d624/sqlfluff-3.2.4-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/4d/ba/f9852d2784923c9e042375df47ca2f4f4a0ac37b5a183afaf7d9457bf821/sqlfluff_templater_dbt-3.2.4-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/b1/46/c748afebe5978abc90e8af20c17fb70fca237e8cbc5da1ed448208e51881/sqlfluff-3.2.5-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/cd/79/0132f0ef0c6ed49a9c74b17112084a80b867161476b5e68e2c4c5cbd0b00/sqlfluff_templater_dbt-3.2.5-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5d/a5/b2860373aa8de1e626b2bdfdd6df4355f0565b47e51f7d0c54fe70faf8fe/sqlparse-0.5.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/40/44/4a5f08c96eb108af5cb50b41f76142f0afa346dfa99d5296fe7202a11854/tabulate-0.9.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9b/87/ce70db7cae60e67851eb94e1a2127d4abb573d3866d2efd302ceb0d4d2a5/tblib-3.0.0-py3-none-any.whl
@@ -578,8 +578,8 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/e0/f9/0595336914c5619e5f28a1fb793285925a8cd4b432c9da0a987836c7f822/shellingham-1.5.4-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9f/8e/3310207a68118000ca27ac878b8386123628b335ecb3d4bec4743357f0d1/spinners-0.0.24-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/5e/ac/31bed7c5a46448b73477dd285bd2febdd753e439361549b88dd4f816d624/sqlfluff-3.2.4-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/4d/ba/f9852d2784923c9e042375df47ca2f4f4a0ac37b5a183afaf7d9457bf821/sqlfluff_templater_dbt-3.2.4-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/b1/46/c748afebe5978abc90e8af20c17fb70fca237e8cbc5da1ed448208e51881/sqlfluff-3.2.5-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/cd/79/0132f0ef0c6ed49a9c74b17112084a80b867161476b5e68e2c4c5cbd0b00/sqlfluff_templater_dbt-3.2.5-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5d/a5/b2860373aa8de1e626b2bdfdd6df4355f0565b47e51f7d0c54fe70faf8fe/sqlparse-0.5.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/40/44/4a5f08c96eb108af5cb50b41f76142f0afa346dfa99d5296fe7202a11854/tabulate-0.9.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9b/87/ce70db7cae60e67851eb94e1a2127d4abb573d3866d2efd302ceb0d4d2a5/tblib-3.0.0-py3-none-any.whl
@@ -685,8 +685,8 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/e0/f9/0595336914c5619e5f28a1fb793285925a8cd4b432c9da0a987836c7f822/shellingham-1.5.4-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9f/8e/3310207a68118000ca27ac878b8386123628b335ecb3d4bec4743357f0d1/spinners-0.0.24-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/5e/ac/31bed7c5a46448b73477dd285bd2febdd753e439361549b88dd4f816d624/sqlfluff-3.2.4-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/4d/ba/f9852d2784923c9e042375df47ca2f4f4a0ac37b5a183afaf7d9457bf821/sqlfluff_templater_dbt-3.2.4-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/b1/46/c748afebe5978abc90e8af20c17fb70fca237e8cbc5da1ed448208e51881/sqlfluff-3.2.5-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/cd/79/0132f0ef0c6ed49a9c74b17112084a80b867161476b5e68e2c4c5cbd0b00/sqlfluff_templater_dbt-3.2.5-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5d/a5/b2860373aa8de1e626b2bdfdd6df4355f0565b47e51f7d0c54fe70faf8fe/sqlparse-0.5.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/40/44/4a5f08c96eb108af5cb50b41f76142f0afa346dfa99d5296fe7202a11854/tabulate-0.9.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9b/87/ce70db7cae60e67851eb94e1a2127d4abb573d3866d2efd302ceb0d4d2a5/tblib-3.0.0-py3-none-any.whl
@@ -792,8 +792,8 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/e0/f9/0595336914c5619e5f28a1fb793285925a8cd4b432c9da0a987836c7f822/shellingham-1.5.4-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9f/8e/3310207a68118000ca27ac878b8386123628b335ecb3d4bec4743357f0d1/spinners-0.0.24-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/5e/ac/31bed7c5a46448b73477dd285bd2febdd753e439361549b88dd4f816d624/sqlfluff-3.2.4-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/4d/ba/f9852d2784923c9e042375df47ca2f4f4a0ac37b5a183afaf7d9457bf821/sqlfluff_templater_dbt-3.2.4-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/b1/46/c748afebe5978abc90e8af20c17fb70fca237e8cbc5da1ed448208e51881/sqlfluff-3.2.5-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/cd/79/0132f0ef0c6ed49a9c74b17112084a80b867161476b5e68e2c4c5cbd0b00/sqlfluff_templater_dbt-3.2.5-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5d/a5/b2860373aa8de1e626b2bdfdd6df4355f0565b47e51f7d0c54fe70faf8fe/sqlparse-0.5.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/40/44/4a5f08c96eb108af5cb50b41f76142f0afa346dfa99d5296fe7202a11854/tabulate-0.9.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9b/87/ce70db7cae60e67851eb94e1a2127d4abb573d3866d2efd302ceb0d4d2a5/tblib-3.0.0-py3-none-any.whl
@@ -2966,9 +2966,9 @@ packages:
   - enum34==1.1.6 ; python_full_version < '3.4'
 - kind: pypi
   name: sqlfluff
-  version: 3.2.4
-  url: https://files.pythonhosted.org/packages/5e/ac/31bed7c5a46448b73477dd285bd2febdd753e439361549b88dd4f816d624/sqlfluff-3.2.4-py3-none-any.whl
-  sha256: a03a152e01824b2b636235fb2703270367bd6695d1644345a29f648a44f6319b
+  version: 3.2.5
+  url: https://files.pythonhosted.org/packages/b1/46/c748afebe5978abc90e8af20c17fb70fca237e8cbc5da1ed448208e51881/sqlfluff-3.2.5-py3-none-any.whl
+  sha256: ae9ff821986b5b0dd1ea858392db7f0eb80343c2cdeee7900fa031f581e04643
   requires_dist:
   - appdirs
   - chardet
@@ -2987,11 +2987,11 @@ packages:
   requires_python: '>=3.8'
 - kind: pypi
   name: sqlfluff-templater-dbt
-  version: 3.2.4
-  url: https://files.pythonhosted.org/packages/4d/ba/f9852d2784923c9e042375df47ca2f4f4a0ac37b5a183afaf7d9457bf821/sqlfluff_templater_dbt-3.2.4-py3-none-any.whl
-  sha256: 9ff32f5f8267104966650597ea6375392cc00fa5cb3ccfaf69c0974758e22abe
+  version: 3.2.5
+  url: https://files.pythonhosted.org/packages/cd/79/0132f0ef0c6ed49a9c74b17112084a80b867161476b5e68e2c4c5cbd0b00/sqlfluff_templater_dbt-3.2.5-py3-none-any.whl
+  sha256: 512d9f5b73d3d362c1983baf8c716c12a469604420c6dcc135e570a647490378
   requires_dist:
-  - sqlfluff==3.2.4
+  - sqlfluff==3.2.5
   - dbt-core>=1.4.1
   - jinja2-simple-tags>=0.3.1
 - kind: pypi

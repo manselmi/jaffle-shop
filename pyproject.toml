@@ -15,11 +15,11 @@ platforms = [
 ]
 
 [tool.pixi.dependencies]
-python = { version = '>=3.13.1,<3.14' }
+python = { version = '>=3.13.2,<3.14' }
 
 [tool.pixi.pypi-dependencies]
 dbt-core = { version = '>=1.9.2,<1.10' }
-dbt-duckdb = { version = '>=1.9.1' }
+dbt-duckdb = { version = '>=1.9.2' }
 dbt-metricflow = { version = '>=0.8.0' }
 jafgen = { version = '>=0.4.14' }
 

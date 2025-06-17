@@ -15,11 +15,11 @@ platforms = [
 ]
 
 [tool.pixi.dependencies]
-python = { version = '>=3.13.3,<3.14' }
+python = { version = '>=3.13.5,<3.14' }
 
 [tool.pixi.pypi-dependencies]
-dbt-core = { version = '>=1.9.4,<1.10' }
-dbt-duckdb = { version = '>=1.9.2' }
+dbt-core = { version = '>=1.9.8,<1.10' }
+dbt-duckdb = { version = '>=1.9.3' }
 dbt-metricflow = { version = '>=0.8.2' }
 jafgen = { version = '>=0.4.14' }
 
@@ -45,8 +45,8 @@ lint = { features = ['lint'], solve-group = 'default' }
 [tool.pixi.feature.lint.pypi-dependencies]
 pre-commit = { version = '>=4.2.0' }
 pre-commit-hooks = { version = '>=5.0.0' }
-ruff = { version = '>=0.11.6' }
-sqlfluff-templater-dbt = { version = '>=3.4.0' }
+ruff = { version = '>=0.11.13' }
+sqlfluff-templater-dbt = { version = '>=3.4.1' }
 
 [tool.pixi.feature.lint.tasks]
 lint = { depends-on = ['pre-commit-run'] }

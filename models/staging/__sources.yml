@@ -13,10 +13,6 @@ sources:
       external_location: |
         read_csv('jaffle-data/${name}.csv', header = true)
       formatter: template
-    freshness:
-      warn_after:
-        count: 24
-        period: hour
     tables:
 
       - name: raw_customers

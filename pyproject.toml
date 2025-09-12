@@ -19,7 +19,7 @@ python = { version = '>=3.13.7,<3.14' }
 
 [tool.pixi.pypi-dependencies]
 dbt-core = { version = '>=1.9.10,<1.10' }
-dbt-duckdb = { version = '>=1.9.4' }
+dbt-duckdb = { version = '>=1.9.6' }
 dbt-metricflow = { version = '>=0.8.2' }
 jafgen = { version = '>=0.4.14' }
 
@@ -45,7 +45,7 @@ lint = { features = ['lint'], solve-group = 'default' }
 [tool.pixi.feature.lint.pypi-dependencies]
 pre-commit = { version = '>=4.3.0' }
 pre-commit-hooks = { version = '>=6.0.0' }
-ruff = { version = '>=0.12.11' }
+ruff = { version = '>=0.13.0' }
 sqlfluff-templater-dbt = { version = '>=3.4.2' }
 
 [tool.pixi.feature.lint.tasks]
@@ -100,8 +100,9 @@ line-length = 100
 target-version = 'py313'
 
 [tool.ruff.lint]
-dummy-variable-rgx = '^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$'
+explicit-preview-rules = true
 fixable = ['ALL']
+future-annotations = true
 ignore = [
   'ANN',      # mypy handles our type annotations
   'COM812',   # https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules
@@ -121,6 +122,7 @@ ignore = [
   'TCH',      # TYPE_CHECKING blocks break autodocs
   'W191',     # https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules
 ]
+preview = true
 select = ['ALL']
 unfixable = []
 

@@ -26,15 +26,13 @@ flags:
   cumulative_type_params: true
   require_batched_execution_for_custom_microbatch_strategy: true
   require_nested_cumulative_type_params: true
-  require_resource_names_without_spaces: true  # remove with dbt-core 1.10: https://docs.getdbt.com/reference/global-configs/behavior-changes#behavior-change-flags
   require_yaml_configuration_for_mf_time_spines: true
   send_anonymous_usage_stats: false
   skip_nodes_if_on_run_start_fails: true
-  source_freshness_run_project_hooks: true  # remove with dbt-core 1.10: https://docs.getdbt.com/reference/global-configs/behavior-changes#behavior-change-flags
   state_modified_compare_more_unrendered_values: true
   validate_macro_args: true
   warn_error_options:
-    include: 'all'  # rename with dbt-core 1.10: https://docs.getdbt.com/docs/dbt-versions/core-upgrade/upgrading-to-v1.10#warn-error-options
+    error: 'all'
 
 models:
   jaffle_shop:

@@ -5,7 +5,7 @@
 name = 'jaffle-shop'
 
 
-[tool.pixi.project]
+[tool.pixi.workspace]
 channels = ['conda-forge']
 platforms = [
   'linux-64',
@@ -15,12 +15,13 @@ platforms = [
 ]
 
 [tool.pixi.dependencies]
-python = { version = '>=3.13.7,<3.14' }
+python = { version = '>=3.13.9,<3.14' }
 
 [tool.pixi.pypi-dependencies]
-dbt-core = { version = '>=1.9.10,<1.10' }
-dbt-duckdb = { version = '>=1.9.6' }
-dbt-metricflow = { version = '>=0.8.2' }
+dbt-core = { version = '>=1.10.13,<1.11' }
+dbt-duckdb = { version = '>=1.10.0' }
+dbt-metricflow = { version = '>=0.11.0' }
+dbt-semantic-interfaces = { version = '>=0.9.4.dev0' }
 jafgen = { version = '>=0.4.14' }
 
 [tool.pixi.tasks]
@@ -45,8 +46,8 @@ lint = { features = ['lint'], solve-group = 'default' }
 [tool.pixi.feature.lint.pypi-dependencies]
 pre-commit = { version = '>=4.3.0' }
 pre-commit-hooks = { version = '>=6.0.0' }
-ruff = { version = '>=0.13.0' }
-sqlfluff-templater-dbt = { version = '>=3.4.2' }
+ruff = { version = '>=0.14.3' }
+sqlfluff-templater-dbt = { version = '>=3.5.0' }
 
 [tool.pixi.feature.lint.tasks]
 lint = { depends-on = ['pre-commit-run'] }
@@ -97,7 +98,7 @@ _pre-commit-install-prepare-commit-msg = { cmd = [
 
 [tool.ruff]
 line-length = 100
-target-version = 'py313'
+target-version = 'py314'
 
 [tool.ruff.lint]
 explicit-preview-rules = true

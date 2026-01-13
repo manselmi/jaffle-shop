@@ -8,7 +8,7 @@
 The dbt [jaffle-shop](https://github.com/dbt-labs/jaffle-shop#readme) project but with DuckDB.
 
 (reference commit:
-[bb3ecd2](https://github.com/dbt-labs/jaffle-shop/commit/bb3ecd292969910d9a4bfb7379b2714b04107dee))
+[dd011b4](https://github.com/dbt-labs/jaffle-shop/commit/dd011b41f1bbfe83a561ec084b67d1063c299e46))
 
 ## Prerequisites
 

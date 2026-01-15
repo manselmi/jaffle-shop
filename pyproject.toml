@@ -46,8 +46,9 @@ lint = { features = ['lint'], solve-group = 'default' }
 [tool.pixi.feature.lint.pypi-dependencies]
 pre-commit = { version = '>=4.5.1' }
 pre-commit-hooks = { version = '>=6.0.0' }
-ruff = { version = '>=0.14.11' }
-sqlfluff-templater-dbt = { version = '>=3.5.0' }
+ruff = { version = '>=0.14.13' }
+sqlfluff = { version = '>=4.0.0', extras = ['rs'] }
+sqlfluff-templater-dbt = { version = '*' }
 
 [tool.pixi.feature.lint.tasks]
 lint = { depends-on = ['pre-commit-run'] }

@@ -17,7 +17,7 @@ The dbt [jaffle-shop](https://github.com/dbt-labs/jaffle-shop#readme) project bu
 * Configure Git hooks:
 
     ``` shell
-    pixi run -- pre-commit-install
+    pixi run -- prek-install
     ```
 
 ## Run

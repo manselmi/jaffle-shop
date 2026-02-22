@@ -12,16 +12,14 @@ The dbt [jaffle-shop](https://github.com/dbt-labs/jaffle-shop#readme) project bu
 
 ## Prerequisites
 
-* [Pixi](https://pixi.sh)
+* [mise](https://mise.jdx.dev/)
 
-* Configure Git hooks:
-
-    ``` shell
-    pixi run -- prek-install
-    ```
+``` shell
+mise run install
+```
 
 ## Run
 
 ``` shell
-pixi run -- all
+mise run
 ```

@@ -10,52 +10,27 @@ channels = ['conda-forge']
 platforms = [
   'linux-64',
   'linux-aarch64',
-  'osx-64',
   'osx-arm64',
 ]
 
 [tool.pixi.dependencies]
-python = { version = '>=3.13.12,<3.14' }  # https://github.com/dbt-labs/dbt-core/issues/12098
+python = { version = '>=3.13,<3.14' }  # https://github.com/dbt-labs/dbt-core/issues/12098
 
 [tool.pixi.pypi-dependencies]
-dbt-core = { version = '>=1.10.19,<1.11' }
-dbt-duckdb = { version = '>=1.10.0' }
-dbt-metricflow = { version = '>=0.11.0' }
+dbt-core = { version = '>=1.10,<1.11' }
+dbt-duckdb = { version = '*' }
+dbt-metricflow = { version = '*' }
 dbt-semantic-interfaces = { version = '>=0.9.4.dev0' }
-jafgen = { version = '>=0.4.14' }
-
-[tool.pixi.tasks]
-all = { depends-on = [
-  'dbt-deps',
-  'dbt-run',
-  'dbt-test',
-  'mf',
-] }
-jafgen = { cmd = ['jafgen'], outputs = ['jaffle-data/*.csv'] }
-dbt-deps = { cmd = ['dbt', 'deps'] }
-dbt-run = { cmd = ['dbt', 'run'], depends-on = ['jafgen'] }
-dbt-test = { cmd = ['dbt', 'test'] }
-mf = { depends-on = ['mf-health-checks', 'mf-validate-configs'] }
-mf-health-checks = { cmd = ['mf', 'health-checks'] }
-mf-validate-configs = { cmd = ['mf', 'validate-configs', '--show-all', '--verbose-issues'] }
+jafgen = { version = '*' }
 
 [tool.pixi.environments]
 default = { solve-group = 'default' }
 lint = { features = ['lint'], solve-group = 'default' }
 
-[tool.pixi.feature.lint.dependencies]
-prek = { version = '>=0.3.2' }
-ruff = { version = '>=0.15.1' }
-
 [tool.pixi.feature.lint.pypi-dependencies]
-sqlfluff = { version = '>=4.0.4', extras = ['rs'] }
+ruff = { version = '*' }
+sqlfluff = { version = '*', extras = ['rs'] }
 sqlfluff-templater-dbt = { version = '*' }
-
-[tool.pixi.feature.lint.tasks]
-lint = { depends-on = ['prek-run'] }
-# https://github.com/prefix-dev/pixi/discussions/1897
-prek-install = { cmd = ['prek', 'install', '-f'] }
-prek-run = { cmd = ['prek', 'run', '--all-files'] }
 
 
 [tool.ruff]

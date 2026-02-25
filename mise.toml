@@ -45,8 +45,9 @@ run = [
 run = ['mise install', { task = 'hooks-install' }, 'pixi install --all']
 
 [tasks.jafgen]
-outputs = ['jaffle-data/*.csv']
-run = 'pixi run -- jafgen'
+run = """\
+if test "$(find -- jaffle-data -maxdepth 1 -name '*.csv' | grep -z -c -- '.*')" -eq 0; then \
+pixi run -- jafgen; fi"""
 
 [tasks.lint]
 run = 'hk fix --all'

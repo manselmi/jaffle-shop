@@ -37,12 +37,7 @@ run = [
 ]
 
 [tasks.install]
-run = [
-  'mise install',
-  { task = 'lock' },
-  { task = 'hooks-install' },
-  'pixi install --all',
-]
+run = ['mise install', { task = 'hooks-install' }, 'pixi install --all']
 
 [tasks.jafgen]
 run = """\

@@ -41,7 +41,7 @@ run = ['mise install', { task = 'hooks-install' }, 'pixi install --all']
 
 [tasks.jafgen]
 run = """\
-if test "$(find -- jaffle-data -maxdepth 1 -name '*.csv' | grep -z -c -- '.*')" -eq 0; then \
+if test "$(find -- jaffle-data -name '*.csv' -print0 | tr -cd -- '\\0' | wc -c)" -eq 0; then \
 pixi run -- jafgen; fi"""
 
 [tasks.lint]

@@ -42,9 +42,9 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/85/32/10bb5764d90a8eee674e9dc6f4db6a0ab47c8c4d0d83c27f7c39ac415a4d/click-8.2.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/29/fe/d54a874e8d7b88bc03c459f63a993305db50039b734fab751a0466dabfc1/daff-1.4.2-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/79/95/426181a69fbb678edb5b5c46407674771ef3b7f4f0b4f54da9d3f9bfc5c7/dbt_adapters-1.22.6-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/49/07/83f9542bd2e7af540d0d50f2c86d79f77f05c6f1978e6e90f418be7e38f1/dbt_adapters-1.22.7-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/3b/7e/629351d21ffa1b51a893334faf8c497f0c34f4da3cece9b24d7a5af29d90/dbt_common-1.37.3-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/7d/fe/af0e5ed9234819d708fad83ad07d3e780ba2c12d0e27db5c29af31cfc9f0/dbt_core-1.10.19-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/eb/6b/80eed8dc0c88d4798e8c1def8c1d62c8ad273f7c1f06a7a90def1f42fda3/dbt_core-1.10.20-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/c5/26/0ce2b1aeecdd1a18a9fac6f02d08f60c95944f036866f3fe37146298d4e4/dbt_duckdb-1.10.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/df/5e/fad01e18d68ffd09c0f39cdedeed8fcaaea74a8b46d1a944472b5f95b72b/dbt_extractor-0.6.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/38/9d/88e6599360338b01db4adf6887412055a63ce91b9e9539e04dd34052962b/dbt_metricflow-0.11.0-py3-none-any.whl
@@ -139,9 +139,9 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/85/32/10bb5764d90a8eee674e9dc6f4db6a0ab47c8c4d0d83c27f7c39ac415a4d/click-8.2.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/29/fe/d54a874e8d7b88bc03c459f63a993305db50039b734fab751a0466dabfc1/daff-1.4.2-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/79/95/426181a69fbb678edb5b5c46407674771ef3b7f4f0b4f54da9d3f9bfc5c7/dbt_adapters-1.22.6-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/49/07/83f9542bd2e7af540d0d50f2c86d79f77f05c6f1978e6e90f418be7e38f1/dbt_adapters-1.22.7-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/3b/7e/629351d21ffa1b51a893334faf8c497f0c34f4da3cece9b24d7a5af29d90/dbt_common-1.37.3-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/7d/fe/af0e5ed9234819d708fad83ad07d3e780ba2c12d0e27db5c29af31cfc9f0/dbt_core-1.10.19-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/eb/6b/80eed8dc0c88d4798e8c1def8c1d62c8ad273f7c1f06a7a90def1f42fda3/dbt_core-1.10.20-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/c5/26/0ce2b1aeecdd1a18a9fac6f02d08f60c95944f036866f3fe37146298d4e4/dbt_duckdb-1.10.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/c9/2a/e14c13b9a437780c5712525ce537915b531bba45481fc7102deb4492ff83/dbt_extractor-0.6.0-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/38/9d/88e6599360338b01db4adf6887412055a63ce91b9e9539e04dd34052962b/dbt_metricflow-0.11.0-py3-none-any.whl
@@ -229,9 +229,9 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/85/32/10bb5764d90a8eee674e9dc6f4db6a0ab47c8c4d0d83c27f7c39ac415a4d/click-8.2.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/29/fe/d54a874e8d7b88bc03c459f63a993305db50039b734fab751a0466dabfc1/daff-1.4.2-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/79/95/426181a69fbb678edb5b5c46407674771ef3b7f4f0b4f54da9d3f9bfc5c7/dbt_adapters-1.22.6-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/49/07/83f9542bd2e7af540d0d50f2c86d79f77f05c6f1978e6e90f418be7e38f1/dbt_adapters-1.22.7-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/3b/7e/629351d21ffa1b51a893334faf8c497f0c34f4da3cece9b24d7a5af29d90/dbt_common-1.37.3-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/7d/fe/af0e5ed9234819d708fad83ad07d3e780ba2c12d0e27db5c29af31cfc9f0/dbt_core-1.10.19-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/eb/6b/80eed8dc0c88d4798e8c1def8c1d62c8ad273f7c1f06a7a90def1f42fda3/dbt_core-1.10.20-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/c5/26/0ce2b1aeecdd1a18a9fac6f02d08f60c95944f036866f3fe37146298d4e4/dbt_duckdb-1.10.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9f/dd/ec8f9e48e7dd5a52a69cca7907681d1779cf1cc8b02f2aa2acb6a2bf8bb4/dbt_extractor-0.6.0-cp39-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl
       - pypi: https://files.pythonhosted.org/packages/38/9d/88e6599360338b01db4adf6887412055a63ce91b9e9539e04dd34052962b/dbt_metricflow-0.11.0-py3-none-any.whl
@@ -335,9 +335,9 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/85/32/10bb5764d90a8eee674e9dc6f4db6a0ab47c8c4d0d83c27f7c39ac415a4d/click-8.2.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/29/fe/d54a874e8d7b88bc03c459f63a993305db50039b734fab751a0466dabfc1/daff-1.4.2-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/79/95/426181a69fbb678edb5b5c46407674771ef3b7f4f0b4f54da9d3f9bfc5c7/dbt_adapters-1.22.6-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/49/07/83f9542bd2e7af540d0d50f2c86d79f77f05c6f1978e6e90f418be7e38f1/dbt_adapters-1.22.7-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/3b/7e/629351d21ffa1b51a893334faf8c497f0c34f4da3cece9b24d7a5af29d90/dbt_common-1.37.3-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/7d/fe/af0e5ed9234819d708fad83ad07d3e780ba2c12d0e27db5c29af31cfc9f0/dbt_core-1.10.19-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/eb/6b/80eed8dc0c88d4798e8c1def8c1d62c8ad273f7c1f06a7a90def1f42fda3/dbt_core-1.10.20-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/c5/26/0ce2b1aeecdd1a18a9fac6f02d08f60c95944f036866f3fe37146298d4e4/dbt_duckdb-1.10.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/df/5e/fad01e18d68ffd09c0f39cdedeed8fcaaea74a8b46d1a944472b5f95b72b/dbt_extractor-0.6.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/38/9d/88e6599360338b01db4adf6887412055a63ce91b9e9539e04dd34052962b/dbt_metricflow-0.11.0-py3-none-any.whl
@@ -446,9 +446,9 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/85/32/10bb5764d90a8eee674e9dc6f4db6a0ab47c8c4d0d83c27f7c39ac415a4d/click-8.2.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/29/fe/d54a874e8d7b88bc03c459f63a993305db50039b734fab751a0466dabfc1/daff-1.4.2-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/79/95/426181a69fbb678edb5b5c46407674771ef3b7f4f0b4f54da9d3f9bfc5c7/dbt_adapters-1.22.6-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/49/07/83f9542bd2e7af540d0d50f2c86d79f77f05c6f1978e6e90f418be7e38f1/dbt_adapters-1.22.7-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/3b/7e/629351d21ffa1b51a893334faf8c497f0c34f4da3cece9b24d7a5af29d90/dbt_common-1.37.3-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/7d/fe/af0e5ed9234819d708fad83ad07d3e780ba2c12d0e27db5c29af31cfc9f0/dbt_core-1.10.19-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/eb/6b/80eed8dc0c88d4798e8c1def8c1d62c8ad273f7c1f06a7a90def1f42fda3/dbt_core-1.10.20-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/c5/26/0ce2b1aeecdd1a18a9fac6f02d08f60c95944f036866f3fe37146298d4e4/dbt_duckdb-1.10.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/c9/2a/e14c13b9a437780c5712525ce537915b531bba45481fc7102deb4492ff83/dbt_extractor-0.6.0-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/38/9d/88e6599360338b01db4adf6887412055a63ce91b9e9539e04dd34052962b/dbt_metricflow-0.11.0-py3-none-any.whl
@@ -550,9 +550,9 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/85/32/10bb5764d90a8eee674e9dc6f4db6a0ab47c8c4d0d83c27f7c39ac415a4d/click-8.2.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/29/fe/d54a874e8d7b88bc03c459f63a993305db50039b734fab751a0466dabfc1/daff-1.4.2-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/79/95/426181a69fbb678edb5b5c46407674771ef3b7f4f0b4f54da9d3f9bfc5c7/dbt_adapters-1.22.6-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/49/07/83f9542bd2e7af540d0d50f2c86d79f77f05c6f1978e6e90f418be7e38f1/dbt_adapters-1.22.7-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/3b/7e/629351d21ffa1b51a893334faf8c497f0c34f4da3cece9b24d7a5af29d90/dbt_common-1.37.3-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/7d/fe/af0e5ed9234819d708fad83ad07d3e780ba2c12d0e27db5c29af31cfc9f0/dbt_core-1.10.19-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/eb/6b/80eed8dc0c88d4798e8c1def8c1d62c8ad273f7c1f06a7a90def1f42fda3/dbt_core-1.10.20-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/c5/26/0ce2b1aeecdd1a18a9fac6f02d08f60c95944f036866f3fe37146298d4e4/dbt_duckdb-1.10.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9f/dd/ec8f9e48e7dd5a52a69cca7907681d1779cf1cc8b02f2aa2acb6a2bf8bb4/dbt_extractor-0.6.0-cp39-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl
       - pypi: https://files.pythonhosted.org/packages/38/9d/88e6599360338b01db4adf6887412055a63ce91b9e9539e04dd34052962b/dbt_metricflow-0.11.0-py3-none-any.whl
@@ -786,10 +786,10 @@ packages:
   name: daff
   version: 1.4.2
   sha256: 88981a21d065e4378b5c4bd40b975dbfdea9b7ff540071f3bb5e20cc8b3590b5
-- pypi: https://files.pythonhosted.org/packages/79/95/426181a69fbb678edb5b5c46407674771ef3b7f4f0b4f54da9d3f9bfc5c7/dbt_adapters-1.22.6-py3-none-any.whl
+- pypi: https://files.pythonhosted.org/packages/49/07/83f9542bd2e7af540d0d50f2c86d79f77f05c6f1978e6e90f418be7e38f1/dbt_adapters-1.22.7-py3-none-any.whl
   name: dbt-adapters
-  version: 1.22.6
-  sha256: 2a70682680ab66822422513b8c1cce59836cd4c405aa6284d2f391328cd083cb
+  version: 1.22.7
+  sha256: 2c3816818b4347ac8cb0cf907e18bee4dea2472c60dc2130ecb5be51c6a5db56
   requires_dist:
   - agate>=1.0,<2.0
   - dbt-common>=1.36,<2.0
@@ -838,10 +838,10 @@ packages:
   - pytest-xdist>=3.2,<4.0 ; extra == 'test'
   - pytest>=7.3,<8.0 ; extra == 'test'
   requires_python: '>=3.10'
-- pypi: https://files.pythonhosted.org/packages/7d/fe/af0e5ed9234819d708fad83ad07d3e780ba2c12d0e27db5c29af31cfc9f0/dbt_core-1.10.19-py3-none-any.whl
+- pypi: https://files.pythonhosted.org/packages/eb/6b/80eed8dc0c88d4798e8c1def8c1d62c8ad273f7c1f06a7a90def1f42fda3/dbt_core-1.10.20-py3-none-any.whl
   name: dbt-core
-  version: 1.10.19
-  sha256: 37f75b034a8b203032a2615487b999bb38dd3f8544d35f285eead3804ce33085
+  version: 1.10.20
+  sha256: 1ddb350cbb7cbffe3db6ecaf409f90341941eabf2fae2e70d141e979ef0e6ffe
   requires_dist:
   - agate>=1.7.0,<1.10
   - jinja2>=3.1.3,<4
@@ -856,7 +856,7 @@ packages:
   - sqlparse>=0.5.0,<0.5.5
   - dbt-extractor>=0.5.0,<=0.6
   - dbt-semantic-interfaces>=0.9.0,<0.10
-  - dbt-common>=1.34.1,!=1.35.*,!=1.36.*,!=1.37.0,!=1.37.1,<2.0
+  - dbt-common>=1.34.2,!=1.35.*,!=1.36.*,!=1.37.0,!=1.37.1,!=1.37.2,<2.0
   - dbt-adapters>=1.15.5,<2.0
   - dbt-protos>=1.0.405,<2.0
   - pydantic<3

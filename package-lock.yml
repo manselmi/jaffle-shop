@@ -7,5 +7,5 @@ packages:
     version: 1.3.3
   - name: dbt_date
     package: godatadriven/dbt_date
-    version: 0.17.1
-sha1_hash: bc18b3f9a37e28b1744f36bcc4757c22255b49b8
+    version: 0.17.2
+sha1_hash: 077372266a83e24e67751ba61ef0de9a167fdab2

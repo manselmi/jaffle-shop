@@ -14,10 +14,6 @@ The dbt [jaffle-shop](https://github.com/dbt-labs/jaffle-shop#readme) project bu
 
 * [mise](https://mise.jdx.dev/)
 
-``` shell
-mise run install
-```
-
 ## Run
 
 ``` shell

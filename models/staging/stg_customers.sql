@@ -2,7 +2,12 @@ with
 
 source as (
 
-    select * from {{ source('ecom', 'raw_customers') }}
+    select
+
+        id::uuid as id,
+        name::varchar as name  -- noqa:RF04
+
+    from {{ source('ecom', 'raw_customers') }}
 
 ),
 
@@ -10,7 +15,7 @@ renamed as (
 
     select
 
-        ----------  ids
+        ---------- ids
         id as customer_id,
 
         ---------- text

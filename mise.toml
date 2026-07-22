@@ -20,18 +20,15 @@ unix_default_inline_shell_args = 'sh -euo pipefail -c'
 
 [tasks.all]
 alias = 'default'
-run = [
-  { task = 'dbt-deps' },
-  { task = 'dbt-run' },
-  { task = 'dbt-test' },
-  { task = 'mf' },
-]
+run = [{ task = 'dbt-run' }, { task = 'dbt-test' }, { task = 'mf' }]
 
 [tasks.dbt-deps]
 run = 'pixi run -- dbt deps'
+sources = ['dependencies.yml']
+outputs = ['dbt_packages', 'package-lock.yml']
 
 [tasks.dbt-run]
-depends = ['jafgen']
+depends = ['jafgen', 'dbt-deps']
 run = 'pixi run -- dbt run'
 
 [tasks.dbt-test]
@@ -46,12 +43,17 @@ hide = true
 run = 'hk uninstall'
 
 [tasks.jafgen]
-run = """\
-if test "$(find -- jaffle-data -name '*.csv' -print0 | tr -cd -- '\\0' | wc -c)" -eq 0; then \
-pixi run -- jafgen; fi"""
+outputs = ['jaffle-data/*.csv']
+run = 'pixi run -- jafgen'
+sources = ['jaffle-data/.gitignore']
 
 [tasks.lint]
 run = 'hk fix --all'
+
+[tasks.lock]
+# required to correctly initialize lockfile when locked = true
+env.MISE_LOCKED = '0'
+run = ['mise install', 'mise lock', 'pixi lock']
 
 [tasks.mf]
 run = [{ task = 'mf-health-checks' }, { task = 'mf-validate-configs' }]
@@ -63,7 +65,7 @@ run = 'pixi run -- mf health-checks'
 run = 'pixi run -- mf validate-configs --show-all --verbose-issues'
 
 [tasks.upgrade]
-# required to correctly initialize lockfile when locked = true as of 2026.5.16
+# required to correctly initialize lockfile when locked = true
 env.MISE_LOCKED = '0'
 run = ['mise upgrade --local', 'mise lock', 'pixi update']
 
@@ -71,3 +73,4 @@ run = ['mise upgrade --local', 'mise lock', 'pixi update']
 [tools]
 hk = 'latest'
 pixi = 'latest'
+pkl = 'latest'

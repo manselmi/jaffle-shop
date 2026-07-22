@@ -2,7 +2,18 @@ with
 
 source as (
 
-    select * from {{ source('ecom', 'raw_orders') }}
+    select
+
+        id::uuid as id,
+        customer::uuid as customer,
+        -- We assume that raw_orders.ordered_at is UTC.
+        ordered_at::timestamp at time zone 'UTC' as ordered_at,
+        store_id::uuid as store_id,
+        subtotal::bigint as subtotal,
+        tax_paid::bigint as tax_paid,
+        order_total::bigint as order_total
+
+    from {{ source('ecom', 'raw_orders') }}
 
 ),
 
@@ -10,7 +21,7 @@ renamed as (
 
     select
 
-        ----------  ids
+        ---------- ids
         id as order_id,
         store_id as location_id,
         customer as customer_id,
@@ -24,7 +35,7 @@ renamed as (
         {{ cents_to_dollars('order_total') }} as order_total,
 
         ---------- timestamps
-        ordered_at at time zone 'UTC' as ordered_at  -- We assume that raw_orders.ordered_at is UTC.
+        ordered_at
 
     from source
 

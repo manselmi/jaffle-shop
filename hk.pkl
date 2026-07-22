@@ -1,7 +1,8 @@
 // vim: set ft=pkl :
 
-amends "package://github.com/jdx/hk/releases/download/v1.48.0/hk@1.48.0#/Config.pkl"
-import "package://github.com/jdx/hk/releases/download/v1.48.0/hk@1.48.0#/Builtins.pkl"
+amends "package://github.com/jdx/hk/releases/download/v1.52.0/hk@1.52.0#/Config.pkl"
+
+import "package://github.com/jdx/hk/releases/download/v1.52.0/hk@1.52.0#/Builtins.pkl"
 
 local linters = new Mapping<String, Step> {
   ["byte_order_marker"] = Builtins.byte_order_marker
@@ -14,6 +15,8 @@ local linters = new Mapping<String, Step> {
   ["mise"] = Builtins.mise
   ["mixed_line_ending"] = Builtins.mixed_line_ending
   ["newlines"] = Builtins.newlines
+  ["pkl"] = (Builtins.pkl) {}
+  ["pkl_format"] = (Builtins.pkl_format) { depends = "pkl" }
   ["trailing_whitespace"] = (Builtins.trailing_whitespace) { exclude = List("**/*.md") }
   ["ruff_format"] = (Builtins.ruff_format) {
     check_diff = "pixi run -q -e lint -- ruff format --quiet --force-exclude --diff -- {{ files }}"
@@ -25,9 +28,9 @@ local linters = new Mapping<String, Step> {
     fix = "pixi run -q -e lint -- ruff check --force-exclude --fix -- {{ files }}"
   }
   ["sql_fluff"] = (Builtins.sql_fluff) {
-    check = "pixi run -q -e lint -- sqlfluff lint --disable-progress-bar -- {{ files }}"
+    check = "mise run -q dbt-deps && pixi run -q -e lint -- sqlfluff lint --disable-progress-bar"
     fix =
-      "pixi run -q -e lint -- sqlfluff fix --disable-progress-bar --show-lint-violations -- {{ files }}"
+      "mise run -q dbt-deps && pixi run -q -e lint -- sqlfluff fix --disable-progress-bar --show-lint-violations"
   }
 }
 

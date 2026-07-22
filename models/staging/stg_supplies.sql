@@ -2,7 +2,15 @@ with
 
 source as (
 
-    select * from {{ source('ecom', 'raw_supplies') }}
+    select
+
+        id::varchar as id,
+        name::varchar as name,  -- noqa:RF04
+        cost::bigint as cost,  -- noqa:RF04
+        perishable::boolean as perishable,
+        sku::varchar as sku
+
+    from {{ source('ecom', 'raw_supplies') }}
 
 ),
 
@@ -10,7 +18,7 @@ renamed as (
 
     select
 
-        ----------  ids
+        ---------- ids
         {{ dbt_utils.generate_surrogate_key(['id', 'sku']) }} as supply_uuid,
         id as supply_id,
         sku as product_id,

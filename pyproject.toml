@@ -90,6 +90,7 @@ large_file_skip_byte_limit = 0
 max_line_length = 100
 sql_file_exts = '.sql'
 templater = 'dbt'
+warn_unused_ignores = true
 
 [tool.sqlfluff.indentation]
 tab_space_size = 4

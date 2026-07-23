@@ -9,10 +9,16 @@ The dbt [jaffle-shop](https://github.com/dbt-labs/jaffle-shop#readme) project bu
 
 ## Prerequisites
 
-* [mise](https://mise.en.dev/)
+* [mise](https://mise.jdx.dev/)
 
 ## Run
 
 ``` shell
 mise run
+```
+
+## Lint
+
+``` shell
+mise run lint
 ```

@@ -5,58 +5,87 @@
 min_version = '2026.5.16'
 
 
-[hooks]
-postinstall = [{ task = 'hooks-install' }, { run = 'pixi install --all' }]
-
-
 [settings]
-experimental = true
 locked = true
 lockfile = true
-lockfile_platforms = ['linux-arm64', 'linux-x64', 'macos-arm64']
-unix_default_file_shell_args = 'sh -euo pipefail'
-unix_default_inline_shell_args = 'sh -euo pipefail -c'
+lockfile_platforms = [
+  'linux-arm64',
+  'linux-x64',
+  'macos-arm64',
+]
+unix_default_file_shell_args = 'bash -euo pipefail'
+unix_default_inline_shell_args = 'bash -euo pipefail -c'
 
 
 [tasks.all]
 alias = 'default'
-run = [{ task = 'dbt-run' }, { task = 'dbt-test' }, { task = 'mf' }]
+run = [
+  { task = 'dbt-run' },
+  { task = 'dbt-test' },
+  { task = 'mf' },
+]
+
+[tasks.check]
+run = [
+  { task = 'lint' },
+  { task = 'all' },
+]
 
 [tasks.dbt-deps]
+outputs = [
+  'dbt_packages',
+]
 run = 'pixi run -- dbt deps'
-sources = ['dependencies.yml']
-outputs = ['dbt_packages', 'package-lock.yml']
+sources = [
+  'dependencies.yml',
+  'package-lock.yml',
+]
 
 [tasks.dbt-run]
-depends = ['jafgen', 'dbt-deps']
+depends = [
+  'jafgen',
+  'dbt-deps',
+]
 run = 'pixi run -- dbt run'
 
 [tasks.dbt-test]
 run = 'pixi run -- dbt test'
 
-[tasks.hooks-install]
-hide = true
-run = [{ task = 'hooks-uninstall' }, 'hk install --mise']
-
-[tasks.hooks-uninstall]
-hide = true
-run = 'hk uninstall'
-
 [tasks.jafgen]
-outputs = ['jaffle-data/*.csv']
+outputs = [
+  'jaffle-data/*.csv',
+]
 run = 'pixi run -- jafgen'
-sources = ['jaffle-data/.gitignore']
+sources = [
+  'jaffle-data/.gitignore',
+]
 
 [tasks.lint]
-run = 'hk fix --all'
+depends = [
+  'dbt-deps',
+]
+run = """\
+if test -n "${CI:-}"; then \
+  CMD='sqlfluff lint'; \
+else \
+  CMD='sqlfluff fix --show-lint-violations'; \
+fi; \
+pixi run -e lint -- ${CMD}"""
 
 [tasks.lock]
 # required to correctly initialize lockfile when locked = true
 env.MISE_LOCKED = '0'
-run = ['mise install', 'mise lock', 'pixi lock']
+run = [
+  'mise install',
+  'mise lock',
+  'pixi lock',
+]
 
 [tasks.mf]
-run = [{ task = 'mf-health-checks' }, { task = 'mf-validate-configs' }]
+run = [
+  { task = 'mf-health-checks' },
+  { task = 'mf-validate-configs' },
+]
 
 [tasks.mf-health-checks]
 run = 'pixi run -- mf health-checks'
@@ -67,10 +96,13 @@ run = 'pixi run -- mf validate-configs --show-all --verbose-issues'
 [tasks.upgrade]
 # required to correctly initialize lockfile when locked = true
 env.MISE_LOCKED = '0'
-run = ['mise upgrade --local', 'mise lock', 'pixi update']
+run = [
+  'mise upgrade --local',
+  'mise lock',
+  'pixi update',
+  'pixi run -- dbt deps --upgrade',
+]
 
 
 [tools]
-hk = 'latest'
 pixi = 'latest'
-pkl = 'latest'

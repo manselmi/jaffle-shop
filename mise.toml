@@ -16,7 +16,6 @@ lockfile_platforms = [
 
 
 [task_config]
-cascade = true
 shell = 'sh -euo pipefail -c'
 
 

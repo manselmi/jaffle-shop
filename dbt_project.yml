@@ -23,23 +23,21 @@ clean-targets:
   - 'target'
 
 flags:
+  allow_jinja_file_extensions: true
   cumulative_type_params: true
-  require_all_warnings_handled_by_warn_error: true
-  require_batched_execution_for_custom_microbatch_strategy: true
+  latest_version_pointer_enabled_by_default: true
   require_corrected_analysis_fqns: true
-  require_nested_cumulative_type_params: true
   require_ref_searches_node_package_before_root: true
   require_source_and_semantic_model_names_without_spaces: true
   require_sql_header_in_test_configs: true
   require_unique_project_resource_names: true
   require_valid_schema_from_generate_schema_name: true
-  require_yaml_configuration_for_mf_time_spines: true
   send_anonymous_usage_stats: false
-  skip_nodes_if_on_run_start_fails: true
-  state_modified_compare_more_unrendered_values: true
-  validate_macro_args: true
+  # use_v2_parser: true
   warn_error_options:
     error: 'all'
+    silence:
+      - 'MFConverterIssue'
 
 models:
   jaffle_shop:
@@ -47,7 +45,3 @@ models:
       +schema: 'staging'
       +materialized: 'table'
     marts:
-      +materialized: 'table'
-
-vars:
-  'dbt_date:time_zone': 'UTC'

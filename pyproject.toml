@@ -14,7 +14,7 @@ platforms = [
 ]
 
 [tool.pixi.dependencies]
-python = { version = '>=3.13,<3.14' }  # https://github.com/dbt-labs/dbt-core/issues/12098
+python = { version = '>=3.14,<3.15' }
 
 [tool.pixi.pypi-dependencies]
 dbt-core = { version = '>=1.12,<1.13' }

@@ -1,4 +1,5 @@
 .pixi/
 dbt_packages/
+logs/
 macros/
 target/

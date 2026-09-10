@@ -1,7 +1,8 @@
 # vim: set ft=yaml :
 #
-# https://docs.getdbt.com/docs/core/connect-data-platform/profiles.yml
+# https://docs.getdbt.com/docs/local/profiles.yml
 # https://docs.getdbt.com/reference/dbt-jinja-functions/profiles-yml-context
+# https://github.com/duckdb/dbt-duckdb#readme
 
 
 jaffle_shop:
@@ -9,5 +10,7 @@ jaffle_shop:
   outputs:
     local:
       path: 'jaffle_shop.duckdb'
-      threads: 1
+      settings:
+        threads: 2
+      threads: 4
       type: 'duckdb'

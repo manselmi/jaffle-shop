@@ -11,12 +11,14 @@ version: '0.1.0'
 
 profile: 'jaffle_shop'
 
-model-paths: ['models']
-seed-paths: ['seeds']
-test-paths: ['data-tests']
 analysis-paths: ['analyses']
 macro-paths: ['macros']
+model-paths: ['models']
+seed-paths: ['seeds']
 snapshot-paths: ['snapshots']
+test-paths: ['data-tests']
+
+target-path: 'target'
 
 clean-targets:
   - 'dbt_packages'
@@ -33,11 +35,9 @@ flags:
   require_unique_project_resource_names: true
   require_valid_schema_from_generate_schema_name: true
   send_anonymous_usage_stats: false
-  # use_v2_parser: true
+  use_v2_parser: true
   warn_error_options:
     error: 'all'
-    silence:
-      - 'MFConverterIssue'
 
 models:
   jaffle_shop:
@@ -45,3 +45,4 @@ models:
       +schema: 'staging'
       +materialized: 'table'
     marts:
+      +materialized: 'table'

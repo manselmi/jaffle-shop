@@ -82,13 +82,15 @@
 
 # dbt
 #   https://docs.getdbt.com/faqs/Git/gitignore
+dbt_internal_packages/
 dbt_modules/
 dbt_packages/
 logs/
 target/
 
 # DuckDB
-#   https://github.com/duckdb/duckdb#readme
+#   https://duckdb.org/docs/current/operations_manual/footprint_of_duckdb/gitignore_for_duckdb
+*.tmp/
 *.wal
 
 # Java
@@ -422,7 +424,3 @@ Thumbs.db:encryptable
 
 # Add project-specific patterns here.
 *.duckdb
-dbt_internal_packages/
-dbt_packages/
-logs/
-target/

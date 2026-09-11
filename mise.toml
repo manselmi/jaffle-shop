@@ -14,6 +14,9 @@ lockfile_platforms = [
   'macos-arm64',
 ]
 
+[settings.python]
+compile = false
+
 
 [task_config]
 shell = 'sh -euo pipefail -c'
@@ -22,16 +25,23 @@ shell = 'sh -euo pipefail -c'
 [tasks.all]
 alias = 'default'
 run = [
-  { task = 'dbt-run' },
-  { task = 'dbt-test' },
+  { task = 'lint' },
+  { task = 'dbt-build' },
   { task = 'mf' },
 ]
 
-[tasks.check]
-run = [
-  { task = 'lint' },
-  { task = 'all' },
+[tasks.dbt-build]
+depends = [
+  'jafgen',
+  'dbt-deps',
 ]
+run = 'pixi run -- dbt build'
+
+[tasks.dbt-compile]
+depends = [
+  'dbt-deps',
+]
+run = 'pixi run -- dbt compile'
 
 [tasks.dbt-deps]
 outputs = [
@@ -42,16 +52,6 @@ sources = [
   'dependencies.yml',
   'package-lock.yml',
 ]
-
-[tasks.dbt-run]
-depends = [
-  'jafgen',
-  'dbt-deps',
-]
-run = 'pixi run -- dbt run'
-
-[tasks.dbt-test]
-run = 'pixi run -- dbt test'
 
 [tasks.jafgen]
 outputs = [
@@ -64,7 +64,7 @@ sources = [
 
 [tasks.lint]
 depends = [
-  'dbt-deps',
+  'dbt-compile',
 ]
 run = """\
 if test -n "${CI:-}"; then \

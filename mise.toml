@@ -22,14 +22,6 @@ compile = false
 shell = 'sh -euo pipefail -c'
 
 
-[tasks.all]
-alias = 'default'
-run = [
-  { task = 'lint' },
-  { task = 'dbt-build' },
-  { task = 'mf' },
-]
-
 [tasks.dbt-build]
 depends = [
   'jafgen',
@@ -51,6 +43,13 @@ run = 'pixi run -- dbt deps'
 sources = [
   'dependencies.yml',
   'package-lock.yml',
+]
+
+[tasks.default]
+run = [
+  { task = 'lint' },
+  { task = 'dbt-build' },
+  { task = 'mf' },
 ]
 
 [tasks.jafgen]

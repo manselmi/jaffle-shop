@@ -35,7 +35,7 @@ sqlfluff-templater-dbt = { version = '*' }
 
 [tool.ruff]
 line-length = 100
-target-version = 'py313'
+target-version = 'py314'
 
 [tool.ruff.format]
 preview = true

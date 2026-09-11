@@ -81,6 +81,7 @@ run = [
   'mise install',
   'mise lock',
   'pixi lock',
+  { task = 'dbt-deps' },
 ]
 
 [tasks.mf]

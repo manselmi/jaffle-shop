@@ -1,7 +1,0 @@
-.pixi/
-dbt_internal_packages/
-dbt_modules/
-dbt_packages/
-logs/
-macros/
-target/

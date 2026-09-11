@@ -96,6 +96,15 @@ encoding = 'utf-8'
 exclude_rules = [
   'ST06',
 ]
+ignore_paths = [
+  '.pixi/',
+  'dbt_internal_packages/',
+  'dbt_modules/',
+  'dbt_packages/',
+  'logs/',
+  'macros/',
+  'target/',
+]
 large_file_skip_byte_limit = 0
 max_line_length = 100
 sql_file_exts = '.sql'

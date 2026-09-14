@@ -16,9 +16,3 @@ The dbt [jaffle-shop](https://github.com/dbt-labs/jaffle-shop#readme) project bu
 ``` shell
 mise run
 ```
-
-## Lint
-
-``` shell
-mise run lint
-```

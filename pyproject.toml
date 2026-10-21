@@ -94,6 +94,7 @@ convention = 'pep257'
 dialect = 'duckdb'
 encoding = 'utf-8'
 exclude_rules = [
+  'AM04',
   'ST06',
 ]
 ignore_paths = [
